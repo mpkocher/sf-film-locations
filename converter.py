@@ -35,6 +35,13 @@ class Constants:
 LOCATION_OVERRIDES = {
     "E52DC90F-9FEA-416C-85FC-D8F059A93FB6": "Leavenworth & Filbert",
     "E4005BA5-6E32-4BD8-AE7E-496EB6B9E5BC": "California at Mason Street",
+    "DE489975-BC16-4518-A013-4E08251A19DD": "Illinois St & 20th St",
+    "F8473537-8CBE-46CA-AA5E-55033E948FC6": "Lombard St & Columbus Ave",
+    "2556C889-30DA-40BC-B6C2-93346CDBE1E": "Jack Kerouac Alley & Grant Ave",
+    "39C0FD32-0A65-410F-985B-3F5119CE198A": "Spofford St & Washington St",
+    "CE5A834B-B8AC-41C0-8002-93897E50499C": "Sansome St & Pine St",
+    # Not sure if this is correct
+    "16F9105D-0658-4A4B-B972-20F8E34656E3": "23rd St & Illinois St",
 }
 
 
@@ -113,9 +120,12 @@ def feature_to_simple_d(f0):
     """Create a simple/terse dict from a Feature"""
     d = {}
     p = f0["properties"]
-    d["coordinates"] = f0["geometry"]["coordinates"]
+    # d["coordinates"] = f0["geometry"]["coordinates"]
+    d["geo_lat"] = f0["geometry"]["coordinates"][0]
+    d["geo_lng"] = f0["geometry"]["coordinates"][1]
     d["id"] = p["id"]
     d["title"] = p["Title"]
+    d["director"] = p["Director"]
     d["release_year"] = p["Release Year"]
     d["raw_location"] = p["Locations"]
     d["location"] = p["formatted_address"]
@@ -143,6 +153,24 @@ def lookup_location(client, location, throttle_sec=None):
     if throttle_sec is not None:
         time.sleep(throttle_sec)
     return result
+
+
+def write_features_to_geojson(features, output_geojson):
+
+    feature_collection = FeatureCollection(features)
+
+    with open(output_geojson, "w+") as f:
+        geojson.dump(feature_collection, f, indent=True)
+    log.info("Wrote {} features to {}".format(len(features), output_geojson))
+
+
+def write_features_to_csv(features, output_csv):
+
+    import pandas as pd
+
+    dx = list(map(feature_to_simple_d, features))
+    df = pd.DataFrame(dx)
+    df.to_csv(output_csv)
 
 
 class GeoLocationCacheIO:
@@ -197,6 +225,12 @@ def converter(client, raw_records, geo_cache=GEO_CACHE_NULL, throttle_sec=None):
         location = r["Locations"]
 
         lx = geo_cache.records.get(ix)
+
+        # dirty hack to force the cache to get updated
+        # when manually changing labels
+        # if ix in LOCATION_OVERRIDES:
+        #    lx = None
+
         if lx is None:
             results = lookup_location(
                 client, _to_sf_location(location), throttle_sec=throttle_sec
@@ -238,6 +272,7 @@ def converter_io(
     raw_record_json,
     geo_cache_json=None,
     output_geojson=None,
+    output_csv=None,
     max_records=None,
     throttle_sec=None,
     log_level=logging.INFO,
@@ -261,10 +296,10 @@ def converter_io(
     features, cache = converter(client, records, gcache, throttle_sec=throttle_sec)
 
     if output_geojson is not None:
-        with open(output_geojson, "w+") as f:
-            feature_collection = FeatureCollection(features)
-            geojson.dump(feature_collection, f)
-            log.info("Wrote {} features to {}".format(len(features), output_geojson))
+        write_features_to_geojson(features, output_geojson)
+
+    if output_csv is not None:
+        write_features_to_csv(features, output_csv)
 
     return features, cache
 
@@ -278,6 +313,7 @@ def get_parser():
     f("-f", "--sf-json", help="Path to SF Org JSON file", required=True)
     f("-o", "--output-geojson", help="Output GeoJSON file", default="output.geojson")
     f("-c", "--geolocation-cache", help="Cached GeoLocation", default=None)
+    f("--output-csv", help="Output 'Slim' CSV with minimal metadata", default=None)
     f("--max-records", help="Max Number of records to process", type=int)
     f("--throttle-sec", help="Throttling time between requests", type=int, default=1)
 
@@ -306,6 +342,7 @@ def run_main(argv):
             pargs.sf_json,
             pargs.geolocation_cache,
             output_geojson=pargs.output_geojson,
+            output_csv=pargs.output_csv,
             max_records=pargs.max_records,
             throttle_sec=pargs.throttle_sec,
         )
