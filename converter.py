@@ -190,7 +190,7 @@ class GeoLocationCacheIO:
 
     def write(self):
         with open(self.file_name, "w+") as f:
-            json.dump(self.records, f)
+            json.dump(self.records, f, indent=2)
 
 
 class GeoLocationCacheNullIO(GeoLocationCacheIO):
