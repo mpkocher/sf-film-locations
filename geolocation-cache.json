@@ -2278,23 +2278,45 @@
   "340BFF5F-7D3F-4FA2-9CA3-CF96DAAF2914": {
     "address_components": [
       {
-        "long_name": "Embarcadero",
-        "short_name": "Embarcadero",
+        "long_name": "Ferry Building",
+        "short_name": "Ferry Building",
+        "types": [
+          "premise"
+        ]
+      },
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "The Embarcadero",
+        "short_name": "The Embarcadero",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "Oakland",
-        "short_name": "Oakland",
+        "long_name": "Embarcadero",
+        "short_name": "Embarcadero",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Alameda County",
-        "short_name": "Alameda County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -2315,39 +2337,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94105",
+        "short_name": "94105",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Embarcadero, Oakland, CA, USA",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
     "geometry": {
       "bounds": {
         "northeast": {
-          "lat": 37.7924604,
-          "lng": -122.2370271
+          "lat": 37.7964179,
+          "lng": -122.3925037
         },
         "southwest": {
-          "lat": 37.7738108,
-          "lng": -122.2668066
+          "lat": 37.7946737,
+          "lng": -122.3943374
         }
       },
       "location": {
-        "lat": 37.7876159,
-        "lng": -122.2495915
+        "lat": 37.7955703,
+        "lng": -122.3933208
       },
-      "location_type": "GEOMETRIC_CENTER",
+      "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 37.7924604,
-          "lng": -122.2370271
+          "lat": 37.7968947802915,
+          "lng": -122.3920715697085
         },
         "southwest": {
-          "lat": 37.7738108,
-          "lng": -122.2668066
+          "lat": 37.7941968197085,
+          "lng": -122.3947695302915
         }
       }
     },
-    "place_id": "ChIJ0ddkIdiGj4ARdbhmjb_nkhY",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "types": [
-      "route"
+      "premise"
     ]
   },
   "54DA68BE-1A4C-4DD0-ABCD-B233E8404A3B": {
@@ -19529,12 +19558,34 @@
   "2A13BB99-7F65-4F3D-83FD-5E39D2EF48D2": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -19552,35 +19603,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "D6F0B869-F5C6-432F-8B5C-C94678CF40DC": {
@@ -30398,31 +30460,45 @@
   "46E393A2-665C-40B1-B357-62D86FC0D57F": {
     "address_components": [
       {
-        "long_name": "Embarcadero West & Market Street",
-        "short_name": "Embarcadero West & Market St",
+        "long_name": "Ferry Building",
+        "short_name": "Ferry Building",
         "types": [
-          "intersection"
+          "premise"
         ]
       },
       {
-        "long_name": "Acorn Industrial",
-        "short_name": "Acorn Industrial",
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "The Embarcadero",
+        "short_name": "The Embarcadero",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Embarcadero",
+        "short_name": "Embarcadero",
         "types": [
           "neighborhood",
           "political"
         ]
       },
       {
-        "long_name": "Oakland",
-        "short_name": "Oakland",
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Alameda County",
-        "short_name": "Alameda County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -30445,34 +30521,44 @@
         ]
       },
       {
-        "long_name": "94607",
-        "short_name": "94607",
+        "long_name": "94105",
+        "short_name": "94105",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Embarcadero West & Market St, Oakland, CA 94607, USA",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
     "geometry": {
-      "location": {
-        "lat": 37.7981483,
-        "lng": -122.284548
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
+      "bounds": {
         "northeast": {
-          "lat": 37.7994972802915,
-          "lng": -122.2831990197085
+          "lat": 37.7964179,
+          "lng": -122.3925037
         },
         "southwest": {
-          "lat": 37.79679931970851,
-          "lng": -122.2858969802915
+          "lat": 37.7946737,
+          "lng": -122.3943374
+        }
+      },
+      "location": {
+        "lat": 37.7955703,
+        "lng": -122.3933208
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 37.7968947802915,
+          "lng": -122.3920715697085
+        },
+        "southwest": {
+          "lat": 37.7941968197085,
+          "lng": -122.3947695302915
         }
       }
     },
-    "place_id": "EjRFbWJhcmNhZGVybyBXZXN0ICYgTWFya2V0IFN0LCBPYWtsYW5kLCBDQSA5NDYwNywgVVNBImYiZAoUChIJ_62Gjb6Aj4ARPrHvIrVvJC0SFAoSCf-tho2-gI-AET6x7yK1byQtGhQKEgmHPgfbx4CPgBFBQTKrOdESUBoUChIJySMq_Rp-hYAR70u72Cr0kqciCg0riocWFdjbHLc",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "types": [
-      "intersection"
+      "premise"
     ]
   },
   "100DF35F-F595-4D08-9D5D-451383B27CE0": {
@@ -38268,12 +38354,34 @@
   "44722700-FB67-4E7F-A1F6-4C6A5FE9ACD5": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -38291,36 +38399,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "partial_match": true,
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "9CE83E2C-46DA-4BBD-9A5B-1CE20DDFF5A0": {
@@ -38482,12 +38600,34 @@
   "18F0ED6C-3561-4ABB-ABCA-7F2299D42BD7": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -38505,35 +38645,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "5FBA712D-A099-458F-8A64-ED81F2437082": {
@@ -44694,12 +44845,34 @@
   "5C8E4FDC-4994-4D2B-91E7-50BBBA277FFA": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -44717,46 +44890,79 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "928394DF-EC7B-496C-8DC6-2A59243E5874": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -44774,35 +44980,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "70070638-D1EB-40ED-A916-BCB8D3483186": {
@@ -48135,23 +48352,45 @@
   "7FC183C0-A150-48A9-B113-380403981800": {
     "address_components": [
       {
-        "long_name": "Embarcadero",
-        "short_name": "Embarcadero",
+        "long_name": "Ferry Building",
+        "short_name": "Ferry Building",
+        "types": [
+          "premise"
+        ]
+      },
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "The Embarcadero",
+        "short_name": "The Embarcadero",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "Oakland",
-        "short_name": "Oakland",
+        "long_name": "Embarcadero",
+        "short_name": "Embarcadero",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Alameda County",
-        "short_name": "Alameda County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -48172,39 +48411,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94105",
+        "short_name": "94105",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Embarcadero, Oakland, CA, USA",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
     "geometry": {
       "bounds": {
         "northeast": {
-          "lat": 37.7924604,
-          "lng": -122.2370271
+          "lat": 37.7964179,
+          "lng": -122.3925037
         },
         "southwest": {
-          "lat": 37.7738108,
-          "lng": -122.2668066
+          "lat": 37.7946737,
+          "lng": -122.3943374
         }
       },
       "location": {
-        "lat": 37.7876159,
-        "lng": -122.2495915
+        "lat": 37.7955703,
+        "lng": -122.3933208
       },
-      "location_type": "GEOMETRIC_CENTER",
+      "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 37.7924604,
-          "lng": -122.2370271
+          "lat": 37.7968947802915,
+          "lng": -122.3920715697085
         },
         "southwest": {
-          "lat": 37.7738108,
-          "lng": -122.2668066
+          "lat": 37.7941968197085,
+          "lng": -122.3947695302915
         }
       }
     },
-    "place_id": "ChIJ0ddkIdiGj4ARdbhmjb_nkhY",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "types": [
-      "route"
+      "premise"
     ]
   },
   "DE9F2FD9-AF71-485D-9E22-87FC5BEE09D3": {
@@ -76552,23 +76798,45 @@
   "EB708888-D5B3-4594-BDA1-68C2AD63EA71": {
     "address_components": [
       {
-        "long_name": "Embarcadero",
-        "short_name": "Embarcadero",
+        "long_name": "Ferry Building",
+        "short_name": "Ferry Building",
+        "types": [
+          "premise"
+        ]
+      },
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "The Embarcadero",
+        "short_name": "The Embarcadero",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "Oakland",
-        "short_name": "Oakland",
+        "long_name": "Embarcadero",
+        "short_name": "Embarcadero",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Alameda County",
-        "short_name": "Alameda County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -76589,39 +76857,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94105",
+        "short_name": "94105",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Embarcadero, Oakland, CA, USA",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
     "geometry": {
       "bounds": {
         "northeast": {
-          "lat": 37.7924604,
-          "lng": -122.2370271
+          "lat": 37.7964179,
+          "lng": -122.3925037
         },
         "southwest": {
-          "lat": 37.7738108,
-          "lng": -122.2668066
+          "lat": 37.7946737,
+          "lng": -122.3943374
         }
       },
       "location": {
-        "lat": 37.7876159,
-        "lng": -122.2495915
+        "lat": 37.7955703,
+        "lng": -122.3933208
       },
-      "location_type": "GEOMETRIC_CENTER",
+      "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 37.7924604,
-          "lng": -122.2370271
+          "lat": 37.7968947802915,
+          "lng": -122.3920715697085
         },
         "southwest": {
-          "lat": 37.7738108,
-          "lng": -122.2668066
+          "lat": 37.7941968197085,
+          "lng": -122.3947695302915
         }
       }
     },
-    "place_id": "ChIJ0ddkIdiGj4ARdbhmjb_nkhY",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "types": [
-      "route"
+      "premise"
     ]
   },
   "5661D035-A386-4461-B875-426C232903C5": {
@@ -88222,31 +88497,45 @@
   "3B4AD4CC-29D8-4BAF-8800-3F81D2E3DBB5": {
     "address_components": [
       {
-        "long_name": "Embarcadero West & Market Street",
-        "short_name": "Embarcadero West & Market St",
+        "long_name": "Ferry Building",
+        "short_name": "Ferry Building",
         "types": [
-          "intersection"
+          "premise"
         ]
       },
       {
-        "long_name": "Acorn Industrial",
-        "short_name": "Acorn Industrial",
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "The Embarcadero",
+        "short_name": "The Embarcadero",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Embarcadero",
+        "short_name": "Embarcadero",
         "types": [
           "neighborhood",
           "political"
         ]
       },
       {
-        "long_name": "Oakland",
-        "short_name": "Oakland",
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Alameda County",
-        "short_name": "Alameda County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -88269,34 +88558,44 @@
         ]
       },
       {
-        "long_name": "94607",
-        "short_name": "94607",
+        "long_name": "94105",
+        "short_name": "94105",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Embarcadero West & Market St, Oakland, CA 94607, USA",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
     "geometry": {
-      "location": {
-        "lat": 37.7981483,
-        "lng": -122.284548
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
+      "bounds": {
         "northeast": {
-          "lat": 37.7994972802915,
-          "lng": -122.2831990197085
+          "lat": 37.7964179,
+          "lng": -122.3925037
         },
         "southwest": {
-          "lat": 37.79679931970851,
-          "lng": -122.2858969802915
+          "lat": 37.7946737,
+          "lng": -122.3943374
+        }
+      },
+      "location": {
+        "lat": 37.7955703,
+        "lng": -122.3933208
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 37.7968947802915,
+          "lng": -122.3920715697085
+        },
+        "southwest": {
+          "lat": 37.7941968197085,
+          "lng": -122.3947695302915
         }
       }
     },
-    "place_id": "EjRFbWJhcmNhZGVybyBXZXN0ICYgTWFya2V0IFN0LCBPYWtsYW5kLCBDQSA5NDYwNywgVVNBImYiZAoUChIJ_62Gjb6Aj4ARPrHvIrVvJC0SFAoSCf-tho2-gI-AET6x7yK1byQtGhQKEgmHPgfbx4CPgBFBQTKrOdESUBoUChIJySMq_Rp-hYAR70u72Cr0kqciCg0riocWFdjbHLc",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "types": [
-      "intersection"
+      "premise"
     ]
   },
   "B70B13E4-7AAB-42F9-84E4-0134DBEE267A": {
@@ -88476,12 +88775,34 @@
   "36AC33AC-6455-4797-9849-6579DC9F051B": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -88499,35 +88820,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "04941765-28EF-430E-8992-F54C9F98AC5D": {
@@ -113208,31 +113540,45 @@
   "36F5D3B6-1D7D-4F28-A711-478A53182E8E": {
     "address_components": [
       {
-        "long_name": "Embarcadero West & Market Street",
-        "short_name": "Embarcadero West & Market St",
+        "long_name": "Ferry Building",
+        "short_name": "Ferry Building",
         "types": [
-          "intersection"
+          "premise"
         ]
       },
       {
-        "long_name": "Acorn Industrial",
-        "short_name": "Acorn Industrial",
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "The Embarcadero",
+        "short_name": "The Embarcadero",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Embarcadero",
+        "short_name": "Embarcadero",
         "types": [
           "neighborhood",
           "political"
         ]
       },
       {
-        "long_name": "Oakland",
-        "short_name": "Oakland",
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Alameda County",
-        "short_name": "Alameda County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -113255,34 +113601,44 @@
         ]
       },
       {
-        "long_name": "94607",
-        "short_name": "94607",
+        "long_name": "94105",
+        "short_name": "94105",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Embarcadero West & Market St, Oakland, CA 94607, USA",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
     "geometry": {
-      "location": {
-        "lat": 37.7981483,
-        "lng": -122.284548
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
+      "bounds": {
         "northeast": {
-          "lat": 37.7994972802915,
-          "lng": -122.2831990197085
+          "lat": 37.7964179,
+          "lng": -122.3925037
         },
         "southwest": {
-          "lat": 37.79679931970851,
-          "lng": -122.2858969802915
+          "lat": 37.7946737,
+          "lng": -122.3943374
+        }
+      },
+      "location": {
+        "lat": 37.7955703,
+        "lng": -122.3933208
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 37.7968947802915,
+          "lng": -122.3920715697085
+        },
+        "southwest": {
+          "lat": 37.7941968197085,
+          "lng": -122.3947695302915
         }
       }
     },
-    "place_id": "EjRFbWJhcmNhZGVybyBXZXN0ICYgTWFya2V0IFN0LCBPYWtsYW5kLCBDQSA5NDYwNywgVVNBImYiZAoUChIJ_62Gjb6Aj4ARPrHvIrVvJC0SFAoSCf-tho2-gI-AET6x7yK1byQtGhQKEgmHPgfbx4CPgBFBQTKrOdESUBoUChIJySMq_Rp-hYAR70u72Cr0kqciCg0riocWFdjbHLc",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "types": [
-      "intersection"
+      "premise"
     ]
   },
   "F2CCD252-90AC-45BA-B2B6-EDC733A489B8": {
@@ -118548,12 +118904,34 @@
   "B212265D-08CD-44F4-B156-318699A3D142": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -118571,35 +118949,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "9B6FABC0-1FBE-4DC0-90C9-25F1EB66844D": {
@@ -122747,12 +123136,34 @@
   "0D8F9C14-80D0-43E3-A61B-4E9C3D312D3B": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -122770,35 +123181,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "F646756F-97F4-44CA-B8EF-0F0AD8AB2BA0": {
@@ -126832,12 +127254,34 @@
   "9F88777C-1968-49B4-99A9-6EC4B724BF2A": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -126855,35 +127299,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "201AAA62-9287-405A-91C6-31B1B74D3DB2": {
@@ -129935,12 +130390,34 @@
   "DE2158E9-7DA8-4310-A306-C65C4F5EE89F": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -129958,35 +130435,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "43A56DE3-F342-430C-A3BD-C516812DA36C": {
@@ -130549,10 +131037,18 @@
   "E4005BA5-6E32-4BD8-AE7E-496EB6B9E5BC": {
     "address_components": [
       {
-        "long_name": "Mason Street",
-        "short_name": "Mason St",
+        "long_name": "California Street & Mason Street",
+        "short_name": "California St & Mason St",
         "types": [
-          "route"
+          "intersection"
+        ]
+      },
+      {
+        "long_name": "Lower Nob Hill",
+        "short_name": "Lower Nob Hill",
+        "types": [
+          "neighborhood",
+          "political"
         ]
       },
       {
@@ -130586,39 +131082,36 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94108",
+        "short_name": "94108",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Mason St, San Francisco, CA, USA",
+    "formatted_address": "California St & Mason St, San Francisco, CA 94108, USA",
     "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 37.8098807,
-          "lng": -122.4070834
-        },
-        "southwest": {
-          "lat": 37.7821699,
-          "lng": -122.415579
-        }
-      },
       "location": {
-        "lat": 37.7958565,
-        "lng": -122.4116509
+        "lat": 37.7918421,
+        "lng": -122.4108428
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8098807,
-          "lng": -122.4070834
+          "lat": 37.79319108029149,
+          "lng": -122.4094938197085
         },
         "southwest": {
-          "lat": 37.7821699,
-          "lng": -122.415579
+          "lat": 37.79049311970849,
+          "lng": -122.4121917802915
         }
       }
     },
-    "place_id": "ChIJo1yzydGAhYAR82_w2D7XH8I",
+    "place_id": "EjZDYWxpZm9ybmlhIFN0ICYgTWFzb24gU3QsIFNhbiBGcmFuY2lzY28sIENBIDk0MTA4LCBVU0EiZiJkChQKEgnzlfwOjYCFgBHym3KjpsLrbhIUChIJ85X8Do2AhYAR8ptyo6bC624aFAoSCZflF5rMgIWAEexQzSOq0gRwGhQKEgmjXLPJ0YCFgBHzb_DYPtcfwiIKDdWThhYVdJYJtw",
     "types": [
-      "route"
+      "intersection"
     ]
   },
   "EC7175DE-77C1-4A89-8854-DCFDDC2D2B6A": {
@@ -134606,16 +135099,38 @@
   "736BEA89-092D-40A3-8CCB-67996C2FDD58": {
     "address_components": [
       {
-        "long_name": "Los Angeles",
-        "short_name": "Los Angeles",
+        "long_name": "1332",
+        "short_name": "1332",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Grant Avenue",
+        "short_name": "Grant Ave",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "North Beach",
+        "short_name": "North Beach",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Los Angeles County",
-        "short_name": "Los Angeles County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -134636,41 +135151,36 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94133",
+        "short_name": "94133",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Los Angeles, CA, USA",
+    "formatted_address": "1332 Grant Ave, San Francisco, CA 94133, USA",
     "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 34.3373061,
-          "lng": -118.1552891
-        },
-        "southwest": {
-          "lat": 33.7036519,
-          "lng": -118.6681759
-        }
-      },
       "location": {
-        "lat": 34.0522342,
-        "lng": -118.2436849
+        "lat": 37.7992992,
+        "lng": -122.4071901
       },
-      "location_type": "APPROXIMATE",
+      "location_type": "RANGE_INTERPOLATED",
       "viewport": {
         "northeast": {
-          "lat": 34.3373061,
-          "lng": -118.1552891
+          "lat": 37.8006481802915,
+          "lng": -122.4058411197085
         },
         "southwest": {
-          "lat": 33.7036519,
-          "lng": -118.6681759
+          "lat": 37.7979502197085,
+          "lng": -122.4085390802915
         }
       }
     },
-    "partial_match": true,
-    "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+    "place_id": "EiwxMzMyIEdyYW50IEF2ZSwgU2FuIEZyYW5jaXNjbywgQ0EgOTQxMzMsIFVTQSIbEhkKFAoSCcGmGvnzgIWAERjHuZR-yE7UELQK",
     "types": [
-      "locality",
-      "political"
+      "street_address"
     ]
   },
   "60820B6F-7A68-4BBE-81CB-45AF872D4493": {
@@ -137150,12 +137660,34 @@
   "A4F445AB-A0BF-4466-A9AB-A1B2C3FFD1E6": {
     "address_components": [
       {
-        "long_name": "Golden Gate National Recreation Area",
-        "short_name": "Golden Gate National Recreation Area",
+        "long_name": "Candlestick Park",
+        "short_name": "Candlestick Park",
         "types": [
-          "establishment",
-          "park",
-          "point_of_interest"
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bayview",
+        "short_name": "Bayview",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
         ]
       },
       {
@@ -137173,35 +137705,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94124",
+        "short_name": "94124",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.7163092,
+          "lng": -122.3861954
+        },
+        "southwest": {
+          "lat": 37.7114447,
+          "lng": -122.3890279
+        }
+      },
       "location": {
-        "lat": 37.8480359,
-        "lng": -122.5295263
+        "lat": 37.7139177,
+        "lng": -122.3876682
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.8493848802915,
-          "lng": -122.5281773197085
+          "lat": 37.7163092,
+          "lng": -122.3861954
         },
         "southwest": {
-          "lat": 37.8466869197085,
-          "lng": -122.5308752802915
+          "lat": 37.7114447,
+          "lng": -122.3890279
         }
       }
     },
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-      "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-      "global_code": "849VRFXC+65"
-    },
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
     "types": [
-      "establishment",
-      "park",
-      "point_of_interest"
+      "route"
     ]
   },
   "431B547D-0D6C-4E78-8E5E-5821F5F22D50": {

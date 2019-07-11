@@ -1009,8 +1009,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.2495915,
-     37.7876159
+     -122.3933208,
+     37.7955703
     ]
    },
    "properties": {
@@ -1024,7 +1024,7 @@
     "meta": null,
     "Title": "A View to a Kill",
     "Release Year": 1985,
-    "Locations": "Embarcadero Freeway",
+    "Locations": "The Embarcadero & Ferry Building",
     "Fun Facts": "Embarcadero Freeway, which was featured in the film, was demolished in 1989 because of structural damage from the 1989 Loma Prieta Earthquake)",
     "Production Company": "Metro-Goldwyn Mayer",
     "Distributor": "MGM/UA Entertainment Company",
@@ -1035,8 +1035,8 @@
      "Christopher Walken",
      "Tanya Roberts"
     ],
-    "formatted_address": "Embarcadero, Oakland, CA, USA",
-    "place_id": "ChIJ0ddkIdiGj4ARdbhmjb_nkhY",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
   },
@@ -8373,8 +8373,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -8388,7 +8388,7 @@
     "meta": null,
     "Title": "Bullitt",
     "Release Year": 1968,
-    "Locations": "Candlestick Park Exit, Highway 101",
+    "Locations": "Candlestick Park",
     "Fun Facts": null,
     "Production Company": "Warner Brothers / Seven Arts\nSeven Arts",
     "Distributor": "Warner Brothers",
@@ -8399,12 +8399,9 @@
      "Jacqueline Bisset",
      "Robert Vaughn"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -12871,8 +12868,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.284548,
-     37.7981483
+     -122.3933208,
+     37.7955703
     ]
    },
    "properties": {
@@ -12886,7 +12883,7 @@
     "meta": null,
     "Title": "Chance Season 2",
     "Release Year": 2017,
-    "Locations": "Market St at Embarcadero",
+    "Locations": "The Embarcadero & Ferry Building",
     "Fun Facts": null,
     "Production Company": "TVM Productions Inc.",
     "Distributor": "Hulu",
@@ -12897,8 +12894,8 @@
      "Greta Lee",
      "Ethan Suplee"
     ],
-    "formatted_address": "Embarcadero West & Market St, Oakland, CA 94607, USA",
-    "place_id": "EjRFbWJhcmNhZGVybyBXZXN0ICYgTWFya2V0IFN0LCBPYWtsYW5kLCBDQSA5NDYwNywgVVNBImYiZAoUChIJ_62Gjb6Aj4ARPrHvIrVvJC0SFAoSCf-tho2-gI-AET6x7yK1byQtGhQKEgmHPgfbx4CPgBFBQTKrOdESUBoUChIJySMq_Rp-hYAR70u72Cr0kqciCg0riocWFdjbHLc",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
   },
@@ -16304,8 +16301,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -16319,7 +16316,7 @@
     "meta": null,
     "Title": "Dr. Dolittle 2",
     "Release Year": 2001,
-    "Locations": "West Chrissy Field (Presidio, Golden Gate National Recreation Area)",
+    "Locations": "Candlestick Park",
     "Fun Facts": "This movie was the first to film in the revamped Chrissy Field Picnic Area.",
     "Production Company": "Twentieth Century Fox Film Corp.",
     "Distributor": "Twentieth Century Fox Film Corp.",
@@ -16329,12 +16326,9 @@
      "Eddie Murphy",
      "Kristen Wilson"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -16415,8 +16409,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -16430,7 +16424,7 @@
     "meta": null,
     "Title": "Dr. Dolittle 2",
     "Release Year": 2001,
-    "Locations": "Building 924, Presidio (Golden Gate National Recreation Area)",
+    "Locations": "Candlestick Park",
     "Fun Facts": "In 1776, Spain made the Presidio a fortified area. The area was then given to Mexico, but then given to the US in 1848. The 1994 demilitarization of the area in 1994 marked the end of its 219 years of military use. ",
     "Production Company": "Twentieth Century Fox Film Corp.",
     "Distributor": "Twentieth Century Fox Film Corp.",
@@ -16440,12 +16434,9 @@
      "Eddie Murphy",
      "Kristen Wilson"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -19095,8 +19086,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -19110,7 +19101,7 @@
     "meta": null,
     "Title": "Final Analysis",
     "Release Year": 1992,
-    "Locations": "Public Health Service Hospital (Presidio, Golden Gate National Recreation Area)",
+    "Locations": "Candlestick Park",
     "Fun Facts": "In 1776, Spain made the Presidio a fortified area. The area was then given to Mexico, but then given to the US in 1848. The 1994 demilitarization of the area in 1994 marked the end of its 219 years of military use. ",
     "Production Company": "Warner Bros. Pictures",
     "Distributor": "Warner Bros. Pictures",
@@ -19120,12 +19111,9 @@
      "Richard Gere",
      "Kim Basinger"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -19134,8 +19122,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -19149,7 +19137,7 @@
     "meta": null,
     "Title": "Final Analysis",
     "Release Year": 1992,
-    "Locations": "Presidio, Golden Gate National Recreation Area",
+    "Locations": "Candlestick Park",
     "Fun Facts": "In 1776, Spain made the Presidio a fortified area. The area was then given to Mexico, but then given to the US in 1848. The 1994 demilitarization of the area in 1994 marked the end of its 219 years of military use. ",
     "Production Company": "Warner Bros. Pictures",
     "Distributor": "Warner Bros. Pictures",
@@ -19159,12 +19147,9 @@
      "Richard Gere",
      "Kim Basinger"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -20638,8 +20623,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.2495915,
-     37.7876159
+     -122.3933208,
+     37.7955703
     ]
    },
    "properties": {
@@ -20653,7 +20638,7 @@
     "meta": null,
     "Title": "Freebie and the Bean",
     "Release Year": 1974,
-    "Locations": "Embarcadero Freeway",
+    "Locations": "The Embarcadero & Ferry Building",
     "Fun Facts": null,
     "Production Company": "Warner Bros. Pictures",
     "Distributor": "American Broadcasting Company (ABC)",
@@ -20664,8 +20649,8 @@
      "James Caan",
      "Loretta Swit"
     ],
-    "formatted_address": "Embarcadero, Oakland, CA, USA",
-    "place_id": "ChIJ0ddkIdiGj4ARdbhmjb_nkhY",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
   },
@@ -32666,8 +32651,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.2495915,
-     37.7876159
+     -122.3933208,
+     37.7955703
     ]
    },
    "properties": {
@@ -32681,7 +32666,7 @@
     "meta": null,
     "Title": "Magnum Force",
     "Release Year": 1973,
-    "Locations": "Embarcadero Freeway",
+    "Locations": "The Embarcadero & Ferry Building",
     "Fun Facts": "demolished",
     "Production Company": "The Malpaso Company",
     "Distributor": "Warner Bros. Pictures",
@@ -32692,8 +32677,8 @@
      "Hal Holbrook",
      "Mitchell Ryan"
     ],
-    "formatted_address": "Embarcadero, Oakland, CA, USA",
-    "place_id": "ChIJ0ddkIdiGj4ARdbhmjb_nkhY",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
   },
@@ -37654,8 +37639,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.284548,
-     37.7981483
+     -122.3933208,
+     37.7955703
     ]
    },
    "properties": {
@@ -37669,7 +37654,7 @@
     "meta": null,
     "Title": "Parks and Recreation",
     "Release Year": 2014,
-    "Locations": "Embarcadero & Market",
+    "Locations": "The Embarcadero & Ferry Building",
     "Fun Facts": null,
     "Production Company": "NBC Universal Media, LLC",
     "Distributor": "NBC Universal Media, LLC",
@@ -37678,8 +37663,8 @@
     "actors": [
      "Amy Poehler"
     ],
-    "formatted_address": "Embarcadero West & Market St, Oakland, CA 94607, USA",
-    "place_id": "EjRFbWJhcmNhZGVybyBXZXN0ICYgTWFya2V0IFN0LCBPYWtsYW5kLCBDQSA5NDYwNywgVVNBImYiZAoUChIJ_62Gjb6Aj4ARPrHvIrVvJC0SFAoSCf-tho2-gI-AET6x7yK1byQtGhQKEgmHPgfbx4CPgBFBQTKrOdESUBoUChIJySMq_Rp-hYAR70u72Cr0kqciCg0riocWFdjbHLc",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
   },
@@ -37764,8 +37749,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -37779,7 +37764,7 @@
     "meta": null,
     "Title": "Patch Adams",
     "Release Year": 1998,
-    "Locations": "Presidio (Golden Gate National Recreation Area)",
+    "Locations": "Candlestick Park",
     "Fun Facts": "In 1776, Spain made the Presidio a fortified area. The area was then given to Mexico, but then given to the US in 1848. The 1994 demilitarization of the area in 1994 marked the end of its 219 years of military use. ",
     "Production Company": "Bungalow 78 Productions",
     "Distributor": "Universal Pictures",
@@ -37789,12 +37774,9 @@
      "Robin Williams",
      "Philip Seymour Hoffman"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -45837,8 +45819,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.4116509,
-     37.7958565
+     -122.4108428,
+     37.7918421
     ]
    },
    "properties": {
@@ -45863,8 +45845,8 @@
      "Kate Winslet",
      "Seth Rogen"
     ],
-    "formatted_address": "Mason St, San Francisco, CA, USA",
-    "place_id": "ChIJo1yzydGAhYAR82_w2D7XH8I",
+    "formatted_address": "California St & Mason St, San Francisco, CA 94108, USA",
+    "place_id": "EjZDYWxpZm9ybmlhIFN0ICYgTWFzb24gU3QsIFNhbiBGcmFuY2lzY28sIENBIDk0MTA4LCBVU0EiZiJkChQKEgnzlfwOjYCFgBHym3KjpsLrbhIUChIJ85X8Do2AhYAR8ptyo6bC624aFAoSCZflF5rMgIWAEexQzSOq0gRwGhQKEgmjXLPJ0YCFgBHzb_DYPtcfwiIKDdWThhYVdJYJtw",
     "plus_code": null
    }
   },
@@ -48398,8 +48380,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.284548,
-     37.7981483
+     -122.3933208,
+     37.7955703
     ]
    },
    "properties": {
@@ -48413,7 +48395,7 @@
     "meta": null,
     "Title": "Terminator - Genisys",
     "Release Year": 2015,
-    "Locations": "Market St. at Embarcadero area",
+    "Locations": "The Embarcadero & Ferry Building",
     "Fun Facts": null,
     "Production Company": "T5 Productions LLC",
     "Distributor": "Paramount Pictures",
@@ -48423,8 +48405,8 @@
      "Arnold Schwarzenegger",
      "Jason Clarke"
     ],
-    "formatted_address": "Embarcadero West & Market St, Oakland, CA 94607, USA",
-    "place_id": "EjRFbWJhcmNhZGVybyBXZXN0ICYgTWFya2V0IFN0LCBPYWtsYW5kLCBDQSA5NDYwNywgVVNBImYiZAoUChIJ_62Gjb6Aj4ARPrHvIrVvJC0SFAoSCf-tho2-gI-AET6x7yK1byQtGhQKEgmHPgfbx4CPgBFBQTKrOdESUBoUChIJySMq_Rp-hYAR70u72Cr0kqciCg0riocWFdjbHLc",
+    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
   },
@@ -50746,8 +50728,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -50761,7 +50743,7 @@
     "meta": null,
     "Title": "The Dead Pool",
     "Release Year": 1988,
-    "Locations": "San Francisco National Military Cemetery (Lincoln Blvd., The Presidio, Golden Gate National Recreation Center)",
+    "Locations": "Candlestick Park",
     "Fun Facts": null,
     "Production Company": "Warner Bros. Pictures",
     "Distributor": "Warner Bros. Pictures",
@@ -50772,12 +50754,9 @@
      "Liam Neeson",
      "Patricia Clarkson"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -52531,8 +52510,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -52546,7 +52525,7 @@
     "meta": null,
     "Title": "The Game",
     "Release Year": 1997,
-    "Locations": "Presidio (Golden Gate National Recreation Area)",
+    "Locations": "Candlestick Park",
     "Fun Facts": "In 1776, Spain made the Presidio a fortified area. The area was then given to Mexico, but then given to the US in 1848. The 1994 demilitarization of the area in 1994 marked the end of its 219 years of military use. ",
     "Production Company": "Polygram Filmed Entertainment",
     "Distributor": "Polygram Filmed Entertainment",
@@ -52557,12 +52536,9 @@
      "Sean Penn",
      "Deborah Kara Unger"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -54309,8 +54285,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -54324,7 +54300,7 @@
     "meta": null,
     "Title": "The Presidio",
     "Release Year": 1988,
-    "Locations": "Presidio (Golden Gate National Recreation Area)",
+    "Locations": "Candlestick Park",
     "Fun Facts": "In 1776, Spain made the Presidio a fortified area. The area was then given to Mexico, but then given to the US in 1848. The 1994 demilitarization of the area in 1994 marked the end of its 219 years of military use. ",
     "Production Company": "Paramount Pictures",
     "Distributor": "Paramount Pictures",
@@ -54335,12 +54311,9 @@
      "Mark Harmon",
      "Meg Ryan"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -55686,8 +55659,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -55701,7 +55674,7 @@
     "meta": null,
     "Title": "The Sweetest Thing",
     "Release Year": 2002,
-    "Locations": "Golden Gate National Recreation Area",
+    "Locations": "Candlestick Park",
     "Fun Facts": "The size of the Recreation Area is over two and a half greater than that of the city and county of San Francisco.",
     "Production Company": "Columbia Pictures Corp.",
     "Distributor": "Columbia Pictures",
@@ -55711,12 +55684,9 @@
      "Cameron Diaz",
      "Christina Applegate"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
@@ -57711,8 +57681,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -118.2436849,
-     34.0522342
+     -122.4071901,
+     37.7992992
     ]
    },
    "properties": {
@@ -57726,7 +57696,7 @@
     "meta": null,
     "Title": "Twisted",
     "Release Year": 2004,
-    "Locations": "La Bodega (1332 Grant Avenue at Vallejo)",
+    "Locations": "1332 Grant Ave",
     "Fun Facts": null,
     "Production Company": "Paramount Pictures",
     "Distributor": "Paramount Pictures",
@@ -57736,8 +57706,8 @@
      "Ashley Judd",
      "Samuel L. Jackson"
     ],
-    "formatted_address": "Los Angeles, CA, USA",
-    "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+    "formatted_address": "1332 Grant Ave, San Francisco, CA 94133, USA",
+    "place_id": "EiwxMzMyIEdyYW50IEF2ZSwgU2FuIEZyYW5jaXNjbywgQ0EgOTQxMzMsIFVTQSIbEhkKFAoSCcGmGvnzgIWAERjHuZR-yE7UELQK",
     "plus_code": null
    }
   },
@@ -58803,8 +58773,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.5295263,
-     37.8480359
+     -122.3876682,
+     37.7139177
     ]
    },
    "properties": {
@@ -58818,7 +58788,7 @@
     "meta": null,
     "Title": "What the Bleep Do We Know",
     "Release Year": 2004,
-    "Locations": "Golden Gate National Recreation Area",
+    "Locations": "Candlestick Park",
     "Fun Facts": "The size of the Recreation Area is over two and a half greater than that of the city and county of San Francisco.",
     "Production Company": "Captured Light",
     "Distributor": "Samuel Goldwyn Films",
@@ -58827,12 +58797,9 @@
     "actors": [
      "Marlee Matlin"
     ],
-    "formatted_address": "Golden Gate National Recreation Area, California, USA",
-    "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
-    "plus_code": {
-     "compound_code": "RFXC+65 Tamalpais-Homestead Valley, California, United States",
-     "global_code": "849VRFXC+65"
-    }
+    "formatted_address": "Candlestick Park, San Francisco, CA 94124, USA",
+    "place_id": "ChIJN4eCYDB_j4ARiGvShyrNK9Q",
+    "plus_code": null
    }
   },
   {
