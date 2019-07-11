@@ -106,8 +106,8 @@ def to_simple_d(d):
 def to_geojson_feature(dx, ix=None, properties=None):
     # More of this raw data from google should be pushed down
     g = dx["geometry"]["location"]
-    lat_lng = g["lat"], g["lng"]
-    pt = Point(lat_lng)
+    coords = g["lng"], g["lat"]
+    pt = Point(coords)
 
     keys = ("formatted_address", "place_id", "plus_code")
     if properties is not None:
