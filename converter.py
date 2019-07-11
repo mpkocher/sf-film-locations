@@ -42,6 +42,12 @@ LOCATION_OVERRIDES = {
     "CE5A834B-B8AC-41C0-8002-93897E50499C": "Sansome St & Pine St",
     # Not sure if this is correct
     "16F9105D-0658-4A4B-B972-20F8E34656E3": "23rd St & Illinois St",
+    "42C4A4CD-3E6B-424F-BBD0-7ECB435AD9DF": "2nd & Mariposa Street",
+    "2556C889-30DA-40BC-B6C2-93346CDBE1EE": "Jack Kerouac Alley & Grant Ave",
+    "9C5B6F02-9DD6-49D0-B7EF-9F5D74F540EA": "847 Montgomery Street",
+    # the Embarcadero freeway in this film doesn't exist
+    "B28D2C31-7463-43E4-8922-9AEC3C0BCBA6": "399 The Embarcadero",
+    "6E393A2-665C-40B1-B357-62D86FC0D57F": "The Embarcadero & Ferry Building"
 }
 
 
