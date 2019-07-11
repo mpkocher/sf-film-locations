@@ -47,7 +47,30 @@ LOCATION_OVERRIDES = {
     "9C5B6F02-9DD6-49D0-B7EF-9F5D74F540EA": "847 Montgomery Street",
     # the Embarcadero freeway in this film doesn't exist
     "B28D2C31-7463-43E4-8922-9AEC3C0BCBA6": "399 The Embarcadero",
-    "6E393A2-665C-40B1-B357-62D86FC0D57F": "The Embarcadero & Ferry Building"
+    "6E393A2-665C-40B1-B357-62D86FC0D57F": "The Embarcadero & Ferry Building",
+    "46E393A2-665C-40B1-B357-62D86FC0D57F": "The Embarcadero & Ferry Building",
+    "3B4AD4CC-29D8-4BAF-8800-3F81D2E3DBB5": "The Embarcadero & Ferry Building",
+    "36F5D3B6-1D7D-4F28-A711-478A53182E8E": "The Embarcadero & Ferry Building",
+    "340BFF5F-7D3F-4FA2-9CA3-CF96DAAF2914": "The Embarcadero & Ferry Building",
+    "7FC183C0-A150-48A9-B113-380403981800": "The Embarcadero & Ferry Building",
+    "EB708888-D5B3-4594-BDA1-68C2AD63EA71": "The Embarcadero & Ferry Building",
+
+    "736BEA89-092D-40A3-8CCB-67996C2FDD58": "1332 Grant Ave",
+
+    # It's odd that Google can't figure this out
+    # 'Candlestick Park Exit, Highway 101'
+    "2A13BB99-7F65-4F3D-83FD-5E39D2EF48D2": "Candlestick Park",
+    "44722700-FB67-4E7F-A1F6-4C6A5FE9ACD5": "Candlestick Park",
+    '18F0ED6C-3561-4ABB-ABCA-7F2299D42BD7': "Candlestick Park",
+    '5C8E4FDC-4994-4D2B-91E7-50BBBA277FFA': "Candlestick Park",
+    '928394DF-EC7B-496C-8DC6-2A59243E5874': "Candlestick Park",
+    '36AC33AC-6455-4797-9849-6579DC9F051B': "Candlestick Park",
+    'B212265D-08CD-44F4-B156-318699A3D142': "Candlestick Park",
+    '0D8F9C14-80D0-43E3-A61B-4E9C3D312D3B': "Candlestick Park",
+    '9F88777C-1968-49B4-99A9-6EC4B724BF2A': "Candlestick Park",
+    'DE2158E9-7DA8-4310-A306-C65C4F5EE89F': "Candlestick Park",
+    'A4F445AB-A0BF-4466-A9AB-A1B2C3FFD1E6': "Candlestick Park"
+
 }
 
 
