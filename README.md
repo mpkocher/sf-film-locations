@@ -24,6 +24,8 @@ Note, this requires a Google Cloud Platform (GCP) API key. The GCP service is us
 
 The output (`SF-Film-Locations.geojson`) is using the open [GeoJSON](https://geojson.org/) standard as a `FeatureCollection`.
 
+Github provides a [view of GeoJSON](https://github.com/mpkocher/sf-film-locations/blob/master/SF-Film-Locations.geojson). I've also checked in the [output CSV](https://github.com/mpkocher/sf-film-locations/blob/master/SF-Film-Locations.csv) which provides a high level overview of the data in tabular form.
+
 
 ## Example GeoJson `Feature` instances 
 
