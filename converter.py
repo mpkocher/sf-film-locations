@@ -150,8 +150,8 @@ def feature_to_simple_d(f0):
     d = {}
     p = f0["properties"]
     # d["coordinates"] = f0["geometry"]["coordinates"]
-    d["geo_lat"] = f0["geometry"]["coordinates"][0]
-    d["geo_lng"] = f0["geometry"]["coordinates"][1]
+    d["geo_lat"] = f0["geometry"]["coordinates"][1]
+    d["geo_lng"] = f0["geometry"]["coordinates"][0]
     d["id"] = p["id"]
     d["title"] = p["Title"]
     d["director"] = p["Director"]
@@ -199,7 +199,10 @@ def write_features_to_csv(features, output_csv):
 
     dx = list(map(feature_to_simple_d, features))
     df = pd.DataFrame(dx)
-    df.to_csv(output_csv)
+
+    f0 = df.set_index('id')
+    f1 = df.sort_values(['release_year', 'title'])
+    f1.to_csv(output_csv, index=False)
 
 
 class GeoLocationCacheIO:
