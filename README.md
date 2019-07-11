@@ -1,8 +1,8 @@
 # SF Film Locations
 
-SF Film locations conversion tool to GeoJson using data from sfgov.org
+SF Film locations conversion tool to GeoJson using data from sfgov.org via SF Film commission [filmsf.org](https://filmsf.org/).
 
-Data: https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am
+Raw Data: https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am 
 
 
 ## Conversion Tool
@@ -22,7 +22,7 @@ Note, this requires a Google Cloud Platform (GCP) API key. The GCP service is us
 ./converter.py -k "${API_KEY}" --sf-json Film_Locations_in_San_Francisco.json -c geolocation-cache.json -o SF-Film-Locations.geojson --log-level=DEBUG --log-file=output.log
 ```
 
-The output (`SF-Film-Locations.geojson`) is in the open [GeoJSON](https://geojson.org/) standard as a `FeatureCollection`.
+The output (`SF-Film-Locations.geojson`) is using the open [GeoJSON](https://geojson.org/) standard as a `FeatureCollection`.
 
 
 ## Example GeoJson `Feature` instances 
