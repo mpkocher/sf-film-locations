@@ -1117,23 +1117,38 @@
   "B28D2C31-7463-43E4-8922-9AEC3C0BCBA6": {
     "address_components": [
       {
-        "long_name": "Embarcadero",
-        "short_name": "Embarcadero",
+        "long_name": "399",
+        "short_name": "399",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "The Embarcadero",
+        "short_name": "The Embarcadero",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "Oakland",
-        "short_name": "Oakland",
+        "long_name": "South Beach",
+        "short_name": "South Beach",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Alameda County",
-        "short_name": "Alameda County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -1154,39 +1169,46 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94105",
+        "short_name": "94105",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Embarcadero, Oakland, CA, USA",
+    "formatted_address": "399 The Embarcadero, San Francisco, CA 94105, USA",
     "geometry": {
       "bounds": {
         "northeast": {
-          "lat": 37.7924604,
-          "lng": -122.2370271
+          "lat": 37.7906116,
+          "lng": -122.3888361
         },
         "southwest": {
-          "lat": 37.7738108,
-          "lng": -122.2668066
+          "lat": 37.7903032,
+          "lng": -122.3891884
         }
       },
       "location": {
-        "lat": 37.7876159,
-        "lng": -122.2495915
+        "lat": 37.7905478,
+        "lng": -122.3890722
       },
-      "location_type": "GEOMETRIC_CENTER",
+      "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 37.7924604,
-          "lng": -122.2370271
+          "lat": 37.7918063802915,
+          "lng": -122.3876632697085
         },
         "southwest": {
-          "lat": 37.7738108,
-          "lng": -122.2668066
+          "lat": 37.7891084197085,
+          "lng": -122.3903612302915
         }
       }
     },
-    "place_id": "ChIJ0ddkIdiGj4ARdbhmjb_nkhY",
+    "place_id": "ChIJ453xGXCAhYARKUDgsLWS9i0",
     "types": [
-      "route"
+      "premise"
     ]
   },
   "288B2C34-3114-479A-AA02-EC4B52E36208": {
@@ -100357,16 +100379,31 @@
   "2556C889-30DA-40BC-B6C2-93346CDBE1EE": {
     "address_components": [
       {
-        "long_name": "Sacramento",
-        "short_name": "Sacramento",
+        "long_name": "Jack Kerouac Alley & Grant Avenue",
+        "short_name": "Jack Kerouac Alley & Grant Ave",
+        "types": [
+          "intersection"
+        ]
+      },
+      {
+        "long_name": "Chinatown",
+        "short_name": "Chinatown",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Sacramento County",
-        "short_name": "Sacramento County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -100387,41 +100424,36 @@
           "country",
           "political"
         ]
+      },
+      {
+        "long_name": "94133",
+        "short_name": "94133",
+        "types": [
+          "postal_code"
+        ]
       }
     ],
-    "formatted_address": "Sacramento, CA, USA",
+    "formatted_address": "Jack Kerouac Alley & Grant Ave, San Francisco, CA 94133, USA",
     "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 38.685507,
-          "lng": -121.325705
-        },
-        "southwest": {
-          "lat": 38.437574,
-          "lng": -121.56012
-        }
-      },
       "location": {
-        "lat": 38.5815719,
-        "lng": -121.4943996
+        "lat": 37.7974867,
+        "lng": -122.4069752
       },
-      "location_type": "APPROXIMATE",
+      "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 38.685507,
-          "lng": -121.325705
+          "lat": 37.7988356802915,
+          "lng": -122.4056262197085
         },
         "southwest": {
-          "lat": 38.437574,
-          "lng": -121.56012
+          "lat": 37.7961377197085,
+          "lng": -122.4083241802915
         }
       }
     },
-    "partial_match": true,
-    "place_id": "ChIJ-ZeDsnLGmoAR238ZdKpqH5I",
+    "place_id": "EjxKYWNrIEtlcm91YWMgQWxsZXkgJiBHcmFudCBBdmUsIFNhbiBGcmFuY2lzY28sIENBIDk0MTMzLCBVU0EiZiJkChQKEgnLE6V_9ICFgBEp2zslESAxlRIUChIJyxOlf_SAhYARKds7JREgMZUaFAoSCbMbkX30gIWAES6WXoEOdE8dGhQKEgnPWB5-9ICFgBGma0B_q7Y4NiIKDVNwhxYViC0Ktw",
     "types": [
-      "locality",
-      "political"
+      "intersection"
     ]
   },
   "BF59BD54-E7DD-42D8-8DC1-A473675881D7": {
@@ -130517,18 +130549,10 @@
   "E4005BA5-6E32-4BD8-AE7E-496EB6B9E5BC": {
     "address_components": [
       {
-        "long_name": "California Street & Mason Street",
-        "short_name": "California St & Mason St",
+        "long_name": "Mason Street",
+        "short_name": "Mason St",
         "types": [
-          "intersection"
-        ]
-      },
-      {
-        "long_name": "Lower Nob Hill",
-        "short_name": "Lower Nob Hill",
-        "types": [
-          "neighborhood",
-          "political"
+          "route"
         ]
       },
       {
@@ -130562,36 +130586,39 @@
           "country",
           "political"
         ]
-      },
-      {
-        "long_name": "94108",
-        "short_name": "94108",
-        "types": [
-          "postal_code"
-        ]
       }
     ],
-    "formatted_address": "California St & Mason St, San Francisco, CA 94108, USA",
+    "formatted_address": "Mason St, San Francisco, CA, USA",
     "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.8098807,
+          "lng": -122.4070834
+        },
+        "southwest": {
+          "lat": 37.7821699,
+          "lng": -122.415579
+        }
+      },
       "location": {
-        "lat": 37.7918421,
-        "lng": -122.4108428
+        "lat": 37.7958565,
+        "lng": -122.4116509
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 37.79319108029149,
-          "lng": -122.4094938197085
+          "lat": 37.8098807,
+          "lng": -122.4070834
         },
         "southwest": {
-          "lat": 37.79049311970849,
-          "lng": -122.4121917802915
+          "lat": 37.7821699,
+          "lng": -122.415579
         }
       }
     },
-    "place_id": "EjZDYWxpZm9ybmlhIFN0ICYgTWFzb24gU3QsIFNhbiBGcmFuY2lzY28sIENBIDk0MTA4LCBVU0EiZiJkChQKEgnzlfwOjYCFgBHym3KjpsLrbhIUChIJ85X8Do2AhYAR8ptyo6bC624aFAoSCZflF5rMgIWAEexQzSOq0gRwGhQKEgmjXLPJ0YCFgBHzb_DYPtcfwiIKDdWThhYVdJYJtw",
+    "place_id": "ChIJo1yzydGAhYAR82_w2D7XH8I",
     "types": [
-      "intersection"
+      "route"
     ]
   },
   "EC7175DE-77C1-4A89-8854-DCFDDC2D2B6A": {
@@ -135947,8 +135974,8 @@
   "42C4A4CD-3E6B-424F-BBD0-7ECB435AD9DF": {
     "address_components": [
       {
-        "long_name": "406",
-        "short_name": "406",
+        "long_name": "680",
+        "short_name": "680",
         "types": [
           "street_number"
         ]
@@ -135961,16 +135988,24 @@
         ]
       },
       {
-        "long_name": "San Juan Bautista",
-        "short_name": "San Juan Bautista",
+        "long_name": "South Beach",
+        "short_name": "South Beach",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "San Benito County",
-        "short_name": "San Benito County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -135993,42 +136028,48 @@
         ]
       },
       {
-        "long_name": "95045",
-        "short_name": "95045",
+        "long_name": "94107",
+        "short_name": "94107",
         "types": [
           "postal_code"
         ]
+      },
+      {
+        "long_name": "2015",
+        "short_name": "2015",
+        "types": [
+          "postal_code_suffix"
+        ]
       }
     ],
-    "formatted_address": "406 2nd St, San Juan Bautista, CA 95045, USA",
+    "formatted_address": "680 2nd St, San Francisco, CA 94107, USA",
     "geometry": {
       "location": {
-        "lat": 36.8458264,
-        "lng": -121.5362177
+        "lat": 37.7808092,
+        "lng": -122.3910319
       },
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 36.8471753802915,
-          "lng": -121.5348687197085
+          "lat": 37.7821581802915,
+          "lng": -122.3896829197085
         },
         "southwest": {
-          "lat": 36.8444774197085,
-          "lng": -121.5375666802915
+          "lat": 37.7794602197085,
+          "lng": -122.3923808802915
         }
       }
     },
-    "partial_match": true,
-    "place_id": "ChIJb-kWRNX-kYARUi6rSn8dWdU",
+    "place_id": "ChIJKb-4C3iAhYAR1Ih1s-RovJk",
     "plus_code": {
-      "compound_code": "RFW7+8G San Juan Bautista, California, United States",
-      "global_code": "848WRFW7+8G"
+      "compound_code": "QJJ5+8H SoMa, San Francisco, CA, United States",
+      "global_code": "849VQJJ5+8H"
     },
     "types": [
-      "church",
       "establishment",
-      "place_of_worship",
-      "point_of_interest"
+      "food",
+      "point_of_interest",
+      "restaurant"
     ]
   },
   "5575DE78-29FA-40D3-9DD1-831490A7A37C": {
@@ -136364,38 +136405,38 @@
   "9C5B6F02-9DD6-49D0-B7EF-9F5D74F540EA": {
     "address_components": [
       {
-        "long_name": "13775",
-        "short_name": "13775",
+        "long_name": "847",
+        "short_name": "847",
         "types": [
           "street_number"
         ]
       },
       {
-        "long_name": "East 14th Street",
-        "short_name": "E 14th St",
+        "long_name": "Montgomery Street",
+        "short_name": "Montgomery St",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "Lower Bal",
-        "short_name": "Lower Bal",
+        "long_name": "Financial District",
+        "short_name": "Financial District",
         "types": [
           "neighborhood",
           "political"
         ]
       },
       {
-        "long_name": "San Leandro",
-        "short_name": "San Leandro",
+        "long_name": "San Francisco",
+        "short_name": "SF",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Alameda County",
-        "short_name": "Alameda County",
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
         "types": [
           "administrative_area_level_2",
           "political"
@@ -136418,48 +136459,38 @@
         ]
       },
       {
-        "long_name": "94578",
-        "short_name": "94578",
+        "long_name": "94133",
+        "short_name": "94133",
         "types": [
           "postal_code"
         ]
-      },
-      {
-        "long_name": "2539",
-        "short_name": "2539",
-        "types": [
-          "postal_code_suffix"
-        ]
       }
     ],
-    "formatted_address": "13775 E 14th St, San Leandro, CA 94578, USA",
+    "formatted_address": "847 Montgomery St, San Francisco, CA 94133, USA",
     "geometry": {
       "location": {
-        "lat": 37.7150207,
-        "lng": -122.1426846
+        "lat": 37.7969869,
+        "lng": -122.4036641
       },
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 37.71636968029149,
-          "lng": -122.1413356197085
+          "lat": 37.7983358802915,
+          "lng": -122.4023151197085
         },
         "southwest": {
-          "lat": 37.71367171970849,
-          "lng": -122.1440335802915
+          "lat": 37.7956379197085,
+          "lng": -122.4050130802915
         }
       }
     },
-    "place_id": "ChIJ_X8NF8WPj4ARGoXVl4DIKFI",
+    "place_id": "ChIJkQ_XI_WAhYARbFnfmHIt9es",
     "plus_code": {
-      "compound_code": "PV84+2W San Leandro, California, United States",
-      "global_code": "849VPV84+2W"
+      "compound_code": "QHWW+QG Financial District, San Francisco, CA, United States",
+      "global_code": "849VQHWW+QG"
     },
     "types": [
-      "establishment",
-      "food",
-      "point_of_interest",
-      "restaurant"
+      "street_address"
     ]
   },
   "C44DA025-6F01-412B-9349-AA97A19E00F5": {

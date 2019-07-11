@@ -510,8 +510,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.2495915,
-     37.7876159
+     -122.3890722,
+     37.7905478
     ]
    },
    "properties": {
@@ -525,7 +525,7 @@
     "meta": null,
     "Title": "A Night Full of Rain",
     "Release Year": 1978,
-    "Locations": "Embarcadero Freeway",
+    "Locations": "399 The Embarcadero",
     "Fun Facts": "Embarcadero Freeway, which was featured in the film was demolished in 1989 because of structural damage from the 1989 Loma Prieta Earthquake)",
     "Production Company": "Liberty Film",
     "Distributor": "Warner Bros. Pictures",
@@ -535,8 +535,8 @@
      "Candice Bergen",
      "Giancarlo Gianni"
     ],
-    "formatted_address": "Embarcadero, Oakland, CA, USA",
-    "place_id": "ChIJ0ddkIdiGj4ARdbhmjb_nkhY",
+    "formatted_address": "399 The Embarcadero, San Francisco, CA 94105, USA",
+    "place_id": "ChIJ453xGXCAhYARKUDgsLWS9i0",
     "plus_code": null
    }
   },
@@ -42827,8 +42827,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -121.4943996,
-     38.5815719
+     -122.4069752,
+     37.7974867
     ]
    },
    "properties": {
@@ -42842,7 +42842,7 @@
     "meta": null,
     "Title": "Sense8 - Season 2",
     "Release Year": 2016,
-    "Locations": "Grant between Sacramento and Jack Kerouac Alley",
+    "Locations": "Jack Kerouac Alley & Grant Ave",
     "Fun Facts": null,
     "Production Company": "Unpronounceable Productions, LLC",
     "Distributor": "Netflix",
@@ -42853,8 +42853,8 @@
      "Daryl Hannah",
      "Naveen Andrews"
     ],
-    "formatted_address": "Sacramento, CA, USA",
-    "place_id": "ChIJ-ZeDsnLGmoAR238ZdKpqH5I",
+    "formatted_address": "Jack Kerouac Alley & Grant Ave, San Francisco, CA 94133, USA",
+    "place_id": "EjxKYWNrIEtlcm91YWMgQWxsZXkgJiBHcmFudCBBdmUsIFNhbiBGcmFuY2lzY28sIENBIDk0MTMzLCBVU0EiZiJkChQKEgnLE6V_9ICFgBEp2zslESAxlRIUChIJyxOlf_SAhYARKds7JREgMZUaFAoSCbMbkX30gIWAES6WXoEOdE8dGhQKEgnPWB5-9ICFgBGma0B_q7Y4NiIKDVNwhxYViC0Ktw",
     "plus_code": null
    }
   },
@@ -45837,8 +45837,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.4108428,
-     37.7918421
+     -122.4116509,
+     37.7958565
     ]
    },
    "properties": {
@@ -45863,8 +45863,8 @@
      "Kate Winslet",
      "Seth Rogen"
     ],
-    "formatted_address": "California St & Mason St, San Francisco, CA 94108, USA",
-    "place_id": "EjZDYWxpZm9ybmlhIFN0ICYgTWFzb24gU3QsIFNhbiBGcmFuY2lzY28sIENBIDk0MTA4LCBVU0EiZiJkChQKEgnzlfwOjYCFgBHym3KjpsLrbhIUChIJ85X8Do2AhYAR8ptyo6bC624aFAoSCZflF5rMgIWAEexQzSOq0gRwGhQKEgmjXLPJ0YCFgBHzb_DYPtcfwiIKDdWThhYVdJYJtw",
+    "formatted_address": "Mason St, San Francisco, CA, USA",
+    "place_id": "ChIJo1yzydGAhYAR82_w2D7XH8I",
     "plus_code": null
    }
   },
@@ -58296,8 +58296,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -121.5362177,
-     36.8458264
+     -122.3910319,
+     37.7808092
     ]
    },
    "properties": {
@@ -58311,7 +58311,7 @@
     "meta": null,
     "Title": "Vertigo",
     "Release Year": 1958,
-    "Locations": "Mission San Juan Bautista (2nd & Mariposa Streets)",
+    "Locations": "2nd & Mariposa Street",
     "Fun Facts": null,
     "Production Company": "Alfred J. Hitchcock Productions",
     "Distributor": "Paramount Pictures",
@@ -58322,11 +58322,11 @@
      "Kim Novak",
      "Barbara Bel Geddes"
     ],
-    "formatted_address": "406 2nd St, San Juan Bautista, CA 95045, USA",
-    "place_id": "ChIJb-kWRNX-kYARUi6rSn8dWdU",
+    "formatted_address": "680 2nd St, San Francisco, CA 94107, USA",
+    "place_id": "ChIJKb-4C3iAhYAR1Ih1s-RovJk",
     "plus_code": {
-     "compound_code": "RFW7+8G San Juan Bautista, California, United States",
-     "global_code": "848WRFW7+8G"
+     "compound_code": "QJJ5+8H SoMa, San Francisco, CA, United States",
+     "global_code": "849VQJJ5+8H"
     }
    }
   },
@@ -58493,8 +58493,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.1426846,
-     37.7150207
+     -122.4036641,
+     37.7969869
     ]
    },
    "properties": {
@@ -58508,7 +58508,7 @@
     "meta": null,
     "Title": "Vertigo",
     "Release Year": 1958,
-    "Locations": "Ernie's Restaurant (847 Montgomery Street)",
+    "Locations": "847 Montgomery Street",
     "Fun Facts": "Called the \"Essex Club\" in the film.",
     "Production Company": "Alfred J. Hitchcock Productions",
     "Distributor": "Paramount Pictures",
@@ -58519,11 +58519,11 @@
      "Kim Novak",
      "Barbara Bel Geddes"
     ],
-    "formatted_address": "13775 E 14th St, San Leandro, CA 94578, USA",
-    "place_id": "ChIJ_X8NF8WPj4ARGoXVl4DIKFI",
+    "formatted_address": "847 Montgomery St, San Francisco, CA 94133, USA",
+    "place_id": "ChIJkQ_XI_WAhYARbFnfmHIt9es",
     "plus_code": {
-     "compound_code": "PV84+2W San Leandro, California, United States",
-     "global_code": "849VPV84+2W"
+     "compound_code": "QHWW+QG Financial District, San Francisco, CA, United States",
+     "global_code": "849VQHWW+QG"
     }
    }
   },
