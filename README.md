@@ -4,6 +4,19 @@ SF Film locations conversion tool to GeoJson using data from sfgov.org via SF Fi
 
 Raw Data: https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am 
 
+The raw locations are loose text descriptions of the film location site and is not easily or robustly consumed for plotting purposes. 
+
+Examples of raw film site locations:
+
+- "Bayshore Blvd near Cesar Chavez (Bayview)"
+- "420 Jones St. at Ellis St."
+- "Hayes Street at Laguna"
+- "City Hall"
+- "Leavenworth from Filbert & Francisco St"
+
+
+This tool will convert the 1600+ raw locations from the RDF-ish JSON format from SFgov.org into [GeoJSON](https://geojson.org/) format. The locations are looked up using Google Cloud Platform (GCP) geolocation service. Even using the GCP gelocation server, there's still 10-15 locations that have be edited by hand to correctly resolve the location successfully. See `LOCATION_OVERRIDES` in `converter.py` for details.
+
 
 ## Conversion Tool
 
@@ -14,7 +27,7 @@ Pulling the raw data from sfgov.
 wget "https://data.sfgov.org/api/views/yitu-d5am/rows.json?accessType=DOWNLOAD" --output-document Film_Locations_in_San_Francisco.json
 ```
 
-Example of running the conversion tool
+### Running the Conversion Tool
 
 Note, this requires a Google Cloud Platform (GCP) API key. The GCP service is used to take the raw location description to resolve to lat/long and well formatted address values. 
 
@@ -27,7 +40,7 @@ The output (`SF-Film-Locations.geojson`) is using the open [GeoJSON](https://geo
 Github provides a [view of GeoJSON](https://github.com/mpkocher/sf-film-locations/blob/master/SF-Film-Locations.geojson). I've also checked in the [output CSV](https://github.com/mpkocher/sf-film-locations/blob/master/SF-Film-Locations.csv) which provides a high level overview of the data in tabular form.
 
 
-## Example GeoJson `Feature` instances 
+## Example GeoJson Feature instances
 
 One of the many locations from `Bullitt` (1968).
 
