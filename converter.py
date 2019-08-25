@@ -74,8 +74,8 @@ LOCATION_OVERRIDES = {
     '089F05BF-FDDA-473E-87CD-CB7FB97C47A0': 'spofford and washington',
     '7B5DB347-473B-4360-85F8-6CBEFCD42A9A': 'american can company',
     '6C61AA14-3213-478E-A0E8-D5CA503F6696': 'Columbus and Filbert St',
-    '8D726183-F542-4B8E-9B13-EA2BDCD5298C': 'Bush and Kerney St'
-
+    '8D726183-F542-4B8E-9B13-EA2BDCD5298C': 'Bush and Kerney St',
+    '274355E9-42CA-4FCB-945A-8F466D5EFE2F': 'grant and sacramento street'
 
 }
 
