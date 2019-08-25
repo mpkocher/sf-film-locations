@@ -108755,8 +108755,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.284548,
-     37.7981483
+     -122.3933208,
+     37.7955703
     ]
    },
    "properties": {
@@ -108770,7 +108770,7 @@
     "meta": null,
     "Title": "Terminator - Genisys",
     "Release Year": 2015,
-    "Locations": "Market St. at Embarcadero area",
+    "Locations": "The Embarcadero & Ferry Building",
     "Fun Facts": null,
     "Production Company": "T5 Productions LLC",
     "Distributor": "Paramount Pictures",
@@ -108780,8 +108780,8 @@
      "Arnold Schwarzenegger",
      "Jason Clarke"
     ],
-    "formatted_address": "Embarcadero West & Market St, Oakland, CA 94607, USA",
-    "place_id": "EjRFbWJhcmNhZGVybyBXZXN0ICYgTWFya2V0IFN0LCBPYWtsYW5kLCBDQSA5NDYwNywgVVNBImYiZAoUChIJ_62Gjb6Aj4ARPrHvIrVvJC0SFAoSCf-tho2-gI-AET6x7yK1byQtGhQKEgmHPgfbx4CPgBFBQTKrOdESUBoUChIJySMq_Rp-hYAR70u72Cr0kqciCg0riocWFdjbHLc",
+    "formatted_address": "Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
   },
