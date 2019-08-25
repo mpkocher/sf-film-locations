@@ -103218,8 +103218,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -121.4943996,
-     38.5815719
+     -122.4061377,
+     37.7933893
     ]
    },
    "properties": {
@@ -103233,7 +103233,7 @@
     "meta": null,
     "Title": "Sense8 - Season 2",
     "Release Year": 2016,
-    "Locations": "Grant between Sacramento and Jack Kerouac Alley",
+    "Locations": "grant and sacramento street",
     "Fun Facts": null,
     "Production Company": "Unpronounceable Productions, LLC",
     "Distributor": "Netflix",
@@ -103244,8 +103244,8 @@
      "Daryl Hannah",
      "Naveen Andrews"
     ],
-    "formatted_address": "Sacramento, CA, USA",
-    "place_id": "ChIJ-ZeDsnLGmoAR238ZdKpqH5I",
+    "formatted_address": "Grant Ave & Sacramento St, San Francisco, CA 94108, USA",
+    "place_id": "EjdHcmFudCBBdmUgJiBTYWNyYW1lbnRvIFN0LCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEwOCwgVVNBImYiZAoUChIJM4XHcYuAhYAR1UefblIfYK0SFAoSCTOFx3GLgIWAEdVHn25SH2CtGhQKEgnPWB5-9ICFgBGma0B_q7Y4NhoUChIJm-VK-MCAhYARn5WJVLm_AX0iCg1F0IYWFT9OCrc",
     "plus_code": null
    }
   },
