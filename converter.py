@@ -175,7 +175,7 @@ def feature_to_simple_d(f0):
     d["title"] = p["Title"]
     d["director"] = p["Director"]
     d["release_year"] = p["Release Year"]
-    d["raw_location"] = p["Locations"]
+    #d["raw_location"] = p["Locations"]
     d["location"] = p["formatted_address"]
     # d['global_code'] = p.get('global_code')
     return d
