@@ -210,6 +210,12 @@ class GeoLocationCacheIO:
         self.records = {} if records is None else records
         self.file_name = file_name
 
+    def __repr__(self):
+        _d = dict(k=self.__class__.__name__,
+                  n=len(self.records),
+                  f=self.file_name)
+        return "<{k} num-records:{n} file:{f} >".format(**_d)
+
     @staticmethod
     def load_from(file_name):
         if os.path.exists(file_name):
@@ -272,7 +278,7 @@ def converter(client, raw_records, geo_cache=GEO_CACHE_NULL, throttle_sec=None):
             if results:
                 result = results[0]
                 geo_cache.records[ix] = result
-                geo_cache.write()
+                # geo_cache.write()
 
                 feature = to_geojson_feature(result, ix=ix, properties=r)
                 features.append(feature)
@@ -287,6 +293,8 @@ def converter(client, raw_records, geo_cache=GEO_CACHE_NULL, throttle_sec=None):
             features.append(feature)
 
     log.debug("Converted {} GeoJson features".format(len(features)))
+    geo_cache.write()
+    log.debug("Wrote cache to {}".format(geo_cache))
     return features, geo_cache
 
 
@@ -306,16 +314,15 @@ def converter_io(
     output_geojson=None,
     output_csv=None,
     max_records=None,
-    throttle_sec=None,
-    log_level=logging.INFO,
-    log_file=None,
+    throttle_sec=None
 ):
 
     client = Client(key=client_key)
     raw_records = list(load_raw_data(raw_record_json))
+    log.info("Loaded {} raw records".format(len(raw_records)))
 
     if max_records is not None:
-        records = raw_records[0 : min(max_records, len(raw_records) + 1)]
+        records = raw_records[0: min(max_records, len(raw_records) + 1)]
     else:
         records = raw_records
 
@@ -383,7 +390,7 @@ def run_main(argv):
         log.exception(e, exc_info=True)
 
     dt = now() - started_at
-    msg = "Completed running {:.2f} sec with exit code {}".format(
+    msg = "Completed running in {:.2f} sec with exit code {}".format(
         dt.total_seconds(), exit_code
     )
     log.info(msg)
