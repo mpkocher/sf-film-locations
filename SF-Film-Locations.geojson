@@ -1035,7 +1035,7 @@
      "Christopher Walken",
      "Tanya Roberts"
     ],
-    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "formatted_address": "Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",
     "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
@@ -1655,7 +1655,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.4176339,
+     -122.4176369,
      37.8003487
     ]
    },
@@ -1681,7 +1681,7 @@
      "Jorge Garcia"
     ],
     "formatted_address": "Filbert St & Leavenworth St, San Francisco, CA 94109, USA",
-    "place_id": "EjlGaWxiZXJ0IFN0ICYgTGVhdmVud29ydGggU3QsIFNhbiBGcmFuY2lzY28sIENBIDk0MTA5LCBVU0EiZiJkChQKEgnjYN1F74CFgBEsOF9Taq8WqBIUChIJ42DdRe-AhYARLDhfU2qvFqgaFAoSCV9b8E7dgIWAEXO3hd4VMD6zGhQKEgk9NkxY7ICFgBEdts9KQ7zUOCIKDR_ghxYVLY0Itw",
+    "place_id": "EjlGaWxiZXJ0IFN0ICYgTGVhdmVud29ydGggU3QsIFNhbiBGcmFuY2lzY28sIENBIDk0MTA5LCBVU0EiZiJkChQKEgnjYN1F74CFgBEsOF9Taq8WqBIUChIJ42DdRe-AhYARLDhfU2qvFqgaFAoSCV9b8E7dgIWAEXO3hd4VMD6zGhQKEgk9NkxY7ICFgBEdts9KQ7zUOCIKDR_ghxYVD40Itw",
     "plus_code": null
    }
   },
@@ -12934,7 +12934,7 @@
      "Greta Lee",
      "Ethan Suplee"
     ],
-    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "formatted_address": "Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",
     "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
@@ -20689,7 +20689,7 @@
      "James Caan",
      "Loretta Swit"
     ],
-    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "formatted_address": "Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",
     "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
@@ -32757,7 +32757,7 @@
      "Hal Holbrook",
      "Mitchell Ryan"
     ],
-    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "formatted_address": "Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",
     "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
@@ -37743,7 +37743,7 @@
     "actors": [
      "Amy Poehler"
     ],
-    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "formatted_address": "Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",
     "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
@@ -42889,8 +42889,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.4069752,
-     37.7974867
+     -122.4069697,
+     37.7974831
     ]
    },
    "properties": {
@@ -42916,7 +42916,7 @@
      "Naveen Andrews"
     ],
     "formatted_address": "Jack Kerouac Alley & Grant Ave, San Francisco, CA 94133, USA",
-    "place_id": "EjxKYWNrIEtlcm91YWMgQWxsZXkgJiBHcmFudCBBdmUsIFNhbiBGcmFuY2lzY28sIENBIDk0MTMzLCBVU0EiZiJkChQKEgnLE6V_9ICFgBEp2zslESAxlRIUChIJyxOlf_SAhYARKds7JREgMZUaFAoSCbMbkX30gIWAES6WXoEOdE8dGhQKEgnPWB5-9ICFgBGma0B_q7Y4NiIKDVNwhxYViC0Ktw",
+    "place_id": "EjxKYWNrIEtlcm91YWMgQWxsZXkgJiBHcmFudCBBdmUsIFNhbiBGcmFuY2lzY28sIENBIDk0MTMzLCBVU0EiZiJkChQKEgnLE6V_9ICFgBEp2zslESAxlRIUChIJyxOlf_SAhYARKds7JREgMZUaFAoSCbMbkX30gIWAES6WXoEOdE8dGhQKEgnPWB5-9ICFgBGma0B_q7Y4NiIKDS9whxYVvy0Ktw",
     "plus_code": null
    }
   },
@@ -47172,8 +47172,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.4009809,
-     37.7921137
+     -122.4009645,
+     37.7921195
     ]
    },
    "properties": {
@@ -47199,7 +47199,7 @@
      "Matilda Anna Ingrid Lutz"
     ],
     "formatted_address": "Sansome St & Pine St, San Francisco, CA 94104, USA",
-    "place_id": "EjJTYW5zb21lIFN0ICYgUGluZSBTdCwgU2FuIEZyYW5jaXNjbywgQ0EgOTQxMDQsIFVTQSJmImQKFAoSCbdGjfhhgIWAEV-abcr8lp6qEhQKEgm3Ro34YYCFgBFfmm3K_JaeqhoUChIJ0yAzZvWAhYARVl3_X6zVs_4aFAoSCTct8TyVgIWAEcmWtfBzOVd-IgoNcZ6GFhWvFwu3",
+    "place_id": "EjJTYW5zb21lIFN0ICYgUGluZSBTdCwgU2FuIEZyYW5jaXNjbywgQ0EgOTQxMDQsIFVTQSJmImQKFAoSCbdGjfhhgIWAEV-abcr8lp6qEhQKEgm3Ro34YYCFgBFfmm3K_JaeqhoUChIJ0yAzZvWAhYARVl3_X6zVs_4aFAoSCTct8TyVgIWAEcmWtfBzOVd-IgoNq56GFhVTGAu3",
     "plus_code": null
    }
   },
@@ -48485,7 +48485,7 @@
      "Arnold Schwarzenegger",
      "Jason Clarke"
     ],
-    "formatted_address": "Ferry Building, 1 The Embarcadero, San Francisco, CA 94105, USA",
+    "formatted_address": "Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",
     "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
@@ -58346,8 +58346,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.3910319,
-     37.7808092
+     -122.404668,
+     37.7632318
     ]
    },
    "properties": {
@@ -58372,11 +58372,11 @@
      "Kim Novak",
      "Barbara Bel Geddes"
     ],
-    "formatted_address": "680 2nd St, San Francisco, CA 94107, USA",
-    "place_id": "ChIJKb-4C3iAhYAR1Ih1s-RovJk",
+    "formatted_address": "2nd, 2101 Mariposa St, San Francisco, CA 94107, USA",
+    "place_id": "ChIJDQnimzN-j4ARfSC5A-M8srY",
     "plus_code": {
-     "compound_code": "QJJ5+8H SoMa, San Francisco, CA, United States",
-     "global_code": "849VQJJ5+8H"
+     "compound_code": "QH7W+74 Potrero Hill, San Francisco, CA, United States",
+     "global_code": "849VQH7W+74"
     }
    }
   },
@@ -73656,8 +73656,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -82.99879419999999,
-     39.9611755
+     -122.411344,
+     37.8011427
     ]
    },
    "properties": {
@@ -73671,7 +73671,7 @@
     "meta": null,
     "Title": "Chance Season 2",
     "Release Year": 2017,
-    "Locations": "Columbus between Filbert and Lombard St",
+    "Locations": "Columbus and Filbert St",
     "Fun Facts": null,
     "Production Company": "TVM Productions Inc.",
     "Distributor": "Hulu",
@@ -73682,8 +73682,8 @@
      "Greta Lee",
      "Ethan Suplee"
     ],
-    "formatted_address": "Columbus, OH, USA",
-    "place_id": "ChIJcd6QucGJOIgRM7Wxz_hmMuQ",
+    "formatted_address": "Filbert St & Columbus Ave, San Francisco, CA 94133, USA",
+    "place_id": "EjdGaWxiZXJ0IFN0ICYgQ29sdW1idXMgQXZlLCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEzMywgVVNBImYiZAoUChIJUxMXNvCAhYARPamsj_42kDwSFAoSCVMTFzbwgIWAET2prI_-NpA8GhQKEglfW_BO3YCFgBFzt4XeFTA-sxoUChIJpVxHNvCAhYAR_bn2A1bZH8giCg0j_4cWFeCCCbc",
     "plus_code": null
    }
   },
@@ -103409,8 +103409,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -120.7401385,
-     47.7510741
+     -122.4075199,
+     37.7950261
     ]
    },
    "properties": {
@@ -103424,7 +103424,7 @@
     "meta": null,
     "Title": "Sense8 - Season 2",
     "Release Year": 2016,
-    "Locations": "Spofford between Washington and Clay",
+    "Locations": "spofford and washington",
     "Fun Facts": null,
     "Production Company": "Unpronounceable Productions, LLC",
     "Distributor": "Netflix",
@@ -103435,8 +103435,8 @@
      "Daryl Hannah",
      "Naveen Andrews"
     ],
-    "formatted_address": "Washington, USA",
-    "place_id": "ChIJ-bDD5__lhVQRuvNfbGh4QpQ",
+    "formatted_address": "Spofford St & Washington St, San Francisco, CA 94108, USA",
+    "place_id": "EjlTcG9mZm9yZCBTdCAmIFdhc2hpbmd0b24gU3QsIFNhbiBGcmFuY2lzY28sIENBIDk0MTA4LCBVU0EiZiJkChQKEgktdpJT84CFgBHdLBXCMMdjTRIUChIJLXaSU_OAhYAR3SwVwjDHY00aFAoSCTlE46uMgIWAEbGdAUCuR5htGhQKEglHI7Pi7ICFgBE_92injPfMkSIKDTUQhxYVQRgKtw",
     "plus_code": null
    }
   },
@@ -107461,8 +107461,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -77.0368707,
-     38.9071923
+     -122.4040735,
+     37.7907632
     ]
    },
    "properties": {
@@ -107476,7 +107476,7 @@
     "meta": null,
     "Title": "Summertime",
     "Release Year": 2015,
-    "Locations": "Sansome (Washington to Bush) Pine (Davis to Kearny) Bush: Kearny to Battery",
+    "Locations": "Bush and Kerney St",
     "Fun Facts": null,
     "Production Company": "Creative Monster Productions, Inc.",
     "Distributor": "9 Distribution",
@@ -107487,8 +107487,8 @@
      "Scott Bakula",
      "Matilda Anna Ingrid Lutz"
     ],
-    "formatted_address": "Washington, DC, USA",
-    "place_id": "ChIJW-T2Wt7Gt4kRKl2I1CJFUsI",
+    "formatted_address": "Kearny St & Bush St, San Francisco, CA 94108, USA",
+    "place_id": "EjFLZWFybnkgU3QgJiBCdXNoIFN0LCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEwOCwgVVNBImYiZAoUChIJB-XPg4mAhYARlugMZt9kIMQSFAoSCQflz4OJgIWAEZboDGbfZCDEGhQKEglN8eHw9ICFgBG59gXYbjkLvBoUChIJ2TM-cpWAhYARPxb8yU5_dUEiCg2waYYWFeGeCrc",
     "plus_code": null
    }
   },
@@ -115613,8 +115613,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -89.3985283,
-     40.6331249
+     -122.3880689,
+     37.7598987
     ]
    },
    "properties": {
@@ -115628,7 +115628,7 @@
     "meta": null,
     "Title": "The Right Stuff",
     "Release Year": 1983,
-    "Locations": "American Can Company (Between Illinois & Kentucky, 20th and 22nd Streets)",
+    "Locations": "american can company",
     "Fun Facts": null,
     "Production Company": "The Ladd Company",
     "Distributor": "The Ladd Company",
@@ -115639,9 +115639,12 @@
      "Scott Glenn",
      "Ed Harris"
     ],
-    "formatted_address": "Illinois, USA",
-    "place_id": "ChIJGSZubzgtC4gRVlkRZFCCFX8",
-    "plus_code": null
+    "formatted_address": "2345 3rd St, San Francisco, CA 94107, USA",
+    "place_id": "ChIJv3dHsrl_j4ARxUDU46g1Pjk",
+    "plus_code": {
+     "compound_code": "QJ56+XQ Potrero Hill, San Francisco, CA, United States",
+     "global_code": "849VQJ56+XQ"
+    }
    }
   },
   {
