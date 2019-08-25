@@ -386,7 +386,7 @@ Ted Post,37.7765425,-122.3901325,3EC0E59D-D44C-4E0F-B0C7-0CA616798399,"3rd St & 
 Ted Post,37.77514000000001,-122.4039924,1F344456-4730-4EB8-9D38-ABF307946DE8,"850 Bryant St, San Francisco, CA 94103, USA",Hall of Justice (850 Bryant Street),1973,Magnum Force
 Ted Post,37.8199286,-122.4782551,08490518-30AC-4795-91BD-8D5EC731218F,"Golden Gate Bridge, Golden Gate Bridge, San Francisco, CA, USA",Golden Gate Bridge,1973,Magnum Force
 Ted Post,37.7923897,-122.4104443,EE4B1621-EA7D-4DBC-86D1-F767A93D4F6E,"950 Mason St, San Francisco, CA 94108, USA","Fairmont Hotel (950 Mason Street, Nob Hill)",1973,Magnum Force
-Ted Post,37.7876159,-122.2495915,39A950CF-0F78-4C3A-90CD-8852F368C886,"Embarcadero, Oakland, CA, USA",Embarcadero Freeway,1973,Magnum Force
+Ted Post,37.7955703,-122.3933208,39A950CF-0F78-4C3A-90CD-8852F368C886,"Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",The Embarcadero & Ferry Building,1973,Magnum Force
 Ted Post,37.7792597,-122.4192646,0DA5037E-D407-49F9-8EDC-807C3093100C,"1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102, USA",City Hall,1973,Magnum Force
 Ted Post,37.7965745,-122.4167866,ED0FE4AF-B07F-4D8C-B9CE-74BB75B76B7D,"Robert C Levy Tunnel, San Francisco, CA, USA",Broadway Tunnel (Russian Hill),1973,Magnum Force
 Ted Post,37.7640018,-122.3937465,C316BD26-AE8F-4D3B-A440-558D772A3435,"Pennsylvania Ave & Mariposa St, San Francisco, CA 94107, USA",280 Freeway at Pennsylvania and Mariposa Streets,1973,Magnum Force
@@ -415,7 +415,7 @@ Richard Rush,37.793014,-122.416113,E469786D-E19D-49F9-B70E-832983974061,"Nob Hil
 Richard Rush,37.7942169,-122.3956663,4CE1F3BE-C78A-40E9-8E9E-2AF805A62941,"5 Embarcadero Center, San Francisco, CA 94111, USA",Hyatt Regency Hotel (5 Embarcadero Center),1974,Freebie and the Bean
 Richard Rush,37.7786975,-122.4054161,82638D9E-28D3-4ADC-B533-9120F6175246,"Folsom St, San Francisco, CA, USA",Folsom Street (SOMA),1974,Freebie and the Bean
 Richard Rush,37.7923897,-122.4104443,13259EE2-34BC-4360-9418-2431391CB0EE,"950 Mason St, San Francisco, CA 94108, USA","Fairmont Hotel (950 Mason Street, Nob Hill)",1974,Freebie and the Bean
-Richard Rush,37.7876159,-122.2495915,07D46736-F34F-470A-B6C2-248289FD580C,"Embarcadero, Oakland, CA, USA",Embarcadero Freeway,1974,Freebie and the Bean
+Richard Rush,37.7955703,-122.3933208,07D46736-F34F-470A-B6C2-248289FD580C,"Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",The Embarcadero & Ferry Building,1974,Freebie and the Bean
 Richard Rush,37.7135308,-122.3861392,FD054BA2-90EA-4A15-A395-3ADCED8584A1,"Candlestick Park, 490 Jamestown Ave, San Francisco, CA 94124, USA",Candlestick Park (602 Jamestown Ave.),1974,Freebie and the Bean
 Richard Rush,37.7978777,-122.4066984,5DA03A76-49E4-43CB-99E7-9F435D6BE250,"Broadway & Columbus Ave, San Francisco, CA 94133, USA",Broadway and Columbus Avenue (North Beach),1974,Freebie and the Bean
 Robert Stevenson,37.8081971,-122.417549,BE64C05E-5C7B-4224-83B2-1772CE3FAC64,"286 Jefferson St, San Francisco, CA 94133, USA",Castagnola's Restaurant (Fisherman's Wharf),1974,Herbie Rides Again
@@ -492,11 +492,11 @@ Mel Brooks,37.7725839,-122.4602253,5A007092-2FA1-40AC-996E-A526B44CA10B,"Conserv
 Mel Brooks,37.7942169,-122.3956663,D7EC146C-A468-4843-B53D-0E9171C655E6,"5 Embarcadero Center, San Francisco, CA 94111, USA",Hyatt Regency Hotel (5 Embarcadero Center),1977,High Anxiety
 Mel Brooks,37.8106185,-122.4770527,A34E7D08-1ACA-4059-86E9-B167054705D2,"Long Ave & Marine Dr, San Francisco, CA 94129, United States","Fort Point (Presidio, Golden Gate National Recreation Area)",1977,High Anxiety
 Mel Brooks,37.7722845,-122.4586814,79D7933E-5C40-467D-96A6-A1677700AC40,"Conservatory of Flowers, 100 John F Kennedy Dr, San Francisco, CA 94118, USA","Conservatory of Flowers, Golden Gate Park",1977,High Anxiety
-Lina Wertmuller,37.7905478,-122.3890722,B28D2C31-7463-43E4-8922-9AEC3C0BCBA6,"399 The Embarcadero, San Francisco, CA 94105, USA",399 The Embarcadero,1978,A Night Full of Rain
+Lina Wertmuller,37.7905478,-122.3890722,B28D2C31-7463-43E4-8922-9AEC3C0BCBA6,"399 The Embarcadero, San Francisco, CA 94105, USA",399 Embarcadero,1978,A Night Full of Rain
 Lina Wertmuller,37.7923897,-122.4104443,288B2C34-3114-479A-AA02-EC4B52E36208,"950 Mason St, San Francisco, CA 94108, USA","Fairmont Hotel (950 Mason Street, Nob Hill)",1978,A Night Full of Rain
 Lina Wertmuller,37.7821582,-122.4065832,69BFDECE-2269-46BE-8619-C0A29813B7EA,"901 Mission St, San Francisco, CA 94103, USA",San Francisco Chronicle (901 Mission Street at 15th Street),1978,A Night Full of Rain
 Lina Wertmuller,37.7959394,-122.4218895,39F29C43-48FD-4704-82B3-933BB5F0FC7B,"Broadway, San Francisco, CA, USA",Broadway (North Beach),1978,A Night Full of Rain
-Lina Wertmuller,37.7876159,-122.2495915,1E1A2DF9-1E46-427E-84DF-E09DB68F7E03,"Embarcadero, Oakland, CA, USA",Embarcadero Freeway,1978,A Night Full of Rain
+Lina Wertmuller,37.7955703,-122.3933208,1E1A2DF9-1E46-427E-84DF-E09DB68F7E03,"Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",The Embarcadero & Ferry Building,1978,A Night Full of Rain
 Lina Wertmuller,37.7923897,-122.4104443,DEC2DA5B-2523-45BA-9028-E18A69D8E020,"950 Mason St, San Francisco, CA 94108, USA","Fairmont Hotel (950 Mason Street, Nob Hill)",1978,A Night Full of Rain
 Lina Wertmuller,37.7821582,-122.4065832,207CD427-43B5-4DB3-B4B1-EA4B40C1DE0A,"901 Mission St, San Francisco, CA 94103, USA",San Francisco Chronicle (901 Mission Street at 15th Street),1978,A Night Full of Rain
 Lina Wertmuller,37.7959394,-122.4218895,E868A75A-6EBD-4C7E-B802-37B481DC473B,"Broadway, San Francisco, CA, USA",Broadway (North Beach),1978,A Night Full of Rain
@@ -721,7 +721,7 @@ John Glen,37.7792597,-122.4192646,FB393D25-2F38-4959-8A29-D6A1A6198DD2,"1 Dr Car
 John Glen,37.7954897,-122.3933452,7327AF09-DDDB-4518-AD4F-6BF5691928B7,"Port of San Francisco, San Francisco, CA 94105, USA",Port of San Francisco,1985,A View to a Kill
 John Glen,37.7765425,-122.3901325,41909DA4-EC88-4285-9996-B614F2CC5395,"3rd St & 3rd St Bridge, San Francisco, CA 94158, USA","Lefty O' Doul Drawbridge/ 3rd Street Bridge (3rd Street, China Basin)",1985,A View to a Kill
 John Glen,37.8199286,-122.4782551,EBF90FB3-EF1B-4AB2-B4A1-10B7B642B307,"Golden Gate Bridge, Golden Gate Bridge, San Francisco, CA, USA",Golden Gate Bridge,1985,A View to a Kill
-John Glen,37.7876159,-122.2495915,23114F2F-DE88-402E-995F-B5B367AF80FA,"Embarcadero, Oakland, CA, USA",Embarcadero Freeway,1985,A View to a Kill
+John Glen,37.7955703,-122.3933208,23114F2F-DE88-402E-995F-B5B367AF80FA,"Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",The Embarcadero & Ferry Building,1985,A View to a Kill
 John Glen,37.7604929,-122.400869,FA9CFCEE-72C2-49D8-9EC0-270CCB651D1B,"Potrero Hill, San Francisco, CA, USA",Potrero Hill,1985,A View to a Kill
 John Glen,37.7792597,-122.4192646,A5F65EED-E06D-47FA-AC2E-07181C26308C,"1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102, USA",City Hall,1985,A View to a Kill
 John Glen,37.7941378,-122.4077914,C1D62060-2F08-4694-A8C2-B8DADF572D6E,"Chinatown, San Francisco, CA, USA",Chinatown,1985,A View to a Kill
@@ -1968,7 +1968,7 @@ Dean Holland,37.7955703,-122.3933208,3B4AD4CC-29D8-4BAF-8800-3F81D2E3DBB5,"Ferry
 Dean Holland,37.8000576,-122.4191684,B7D90B11-5E83-4AA6-9821-543060894231,"Hyde St & Filbert St, San Francisco, CA 94109, USA",Filbert from Hyde to Leavenworth,2014,Parks and Recreation
 Dean Holland,37.799341,-122.4088078,997AB136-FB71-4DE0-B7FF-07B0C107B57A,"Green St, San Francisco, CA, USA",Columbus and Green,2014,Parks and Recreation
 Dean Holland,37.779594,-122.4168277,9A39A635-EA22-4CCE-AF68-9A5EB36446DB,"Larkin St & Fulton St, San Francisco, CA 94102, USA",Larkin & Fulton,2014,Parks and Recreation
-Dean Holland,37.7981483,-122.284548,07F59C2E-8B78-4A37-8E30-8A8CDB0ABEF3,"Embarcadero West & Market St, Oakland, CA 94607, USA",Embarcadero & Market,2014,Parks and Recreation
+Dean Holland,37.7955703,-122.3933208,07F59C2E-8B78-4A37-8E30-8A8CDB0ABEF3,"Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",The Embarcadero & Ferry Building,2014,Parks and Recreation
 Lee Toland Krieger,37.7737438,-122.3862029,F7520113-CCBF-46AA-9725-D9C579CBF612,"Pier 50, San Francisco, CA 94158, USA",Pier 50- end of the pier,2015,Age of Adaline
 Lee Toland Krieger,37.7973059,-122.4036995,22703E4E-05AC-4235-913F-A70E8542FAF7,"Montgomery St, San Francisco, CA, USA",California @ Montgomery,2015,Age of Adaline
 Lee Toland Krieger,37.8001126,-122.4042717,C474B41D-0EEF-4FDB-AED3-98249E85847F,"Montgomery St & Green St, San Francisco, CA 94133, USA",Montgomery/Green,2015,Age of Adaline
@@ -2958,7 +2958,7 @@ Rozann Dawson,37.8087481,-122.4149769,62B39C02-7DD9-454F-BFBB-1546851FD01A,"2817
 Rozann Dawson,37.7700212,-122.4469617,B52E5413-9B14-4CB0-8370-BB81C59E0B2F,"Haight St & Ashbury St, San Francisco, CA 94117, USA",Haight St at Ashbury St,2017,Chance Season 2
 Rozann Dawson,37.7725136,-122.4261014,E77E3E7C-9FDB-4DA8-8F4B-56F2C9B37B7D,"215 Haight St, San Francisco, CA 94102, USA",Central St between Haight and Page St,2017,Chance Season 2
 Rozann Dawson,37.7701448,-122.4384919,1D4B5DAB-FDC0-4B7C-9A38-9DA7FEF38056,"Waller St, San Francisco, CA, USA",Waller St between Masonic and Del Mar St,2017,Chance Season 2
-Rozann Dawson,37.7981483,-122.284548,4E745A1A-6FAE-4D93-B5CE-2046FD28F973,"Embarcadero West & Market St, Oakland, CA 94607, USA",Market St at Embarcadero,2017,Chance Season 2
+Rozann Dawson,37.7955703,-122.3933208,4E745A1A-6FAE-4D93-B5CE-2046FD28F973,"Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",The Embarcadero & Ferry Building,2017,Chance Season 2
 Rozann Dawson,37.7898628,-122.3888455,6E030A71-13B5-4931-9B64-A38CF396FF50,"The Embarcadero & Harrison St, San Francisco, CA 94105, USA",Embarcadero between Harrison and Folsom St,2017,Chance Season 2
 Rozann Dawson,37.80419,-122.4022693,F14188EB-A5A9-487D-993C-974E8D9AEFFC,"Lombard St & The Embarcadero, San Francisco, CA 94111, USA",Embarcadero at Lombard St.,2017,Chance Season 2
 Rozann Dawson,37.7994171,-122.4174331,91680447-21C7-498A-9F98-2387567BEFDC,"Union St & Leavenworth St, San Francisco, CA 94109, USA",Union St at Leavenworth St,2017,Chance Season 2
