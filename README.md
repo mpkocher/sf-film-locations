@@ -4,6 +4,9 @@ SF Film locations conversion tool to GeoJson using data from sfgov.org via SF Fi
 
 Raw Data: https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am 
 
+Last updated: 2019-08-24
+Total GeoJSON Records: 3299
+
 The raw locations are loose text descriptions of the film location site and is not easily or robustly consumed for plotting purposes. 
 
 Examples of raw film site locations:
@@ -15,7 +18,7 @@ Examples of raw film site locations:
 - "Leavenworth from Filbert & Francisco St"
 
 
-This tool will convert the 1600+ raw locations from the RDF-ish JSON format from SFgov.org into [GeoJSON](https://geojson.org/) format. The locations are looked up using Google Cloud Platform (GCP) geolocation service. Even using the GCP gelocation server, there's still 10-15 locations that have be edited by hand to correctly resolve the location successfully. See `LOCATION_OVERRIDES` in `converter.py` for details.
+This tool will convert the 3200+ raw locations from the RDF-ish JSON format from SFgov.org into [GeoJSON](https://geojson.org/) format. The locations are looked up using Google Cloud Platform (GCP) geolocation service. Even using the GCP gelocation server, there's still 10-15 locations that have be edited by hand to correctly resolve the location successfully. See `LOCATION_OVERRIDES` in `converter.py` for details.
 
 
 ## Conversion Tool
