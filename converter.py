@@ -28,6 +28,11 @@ class Constants:
     GEO_CACHE_FILE = "geolocation-cache.json"
 
 
+# This is very commonly misunderstood by google
+LOCATION_EMBARCO = 'The Embarcadero & Ferry Building'
+LOCATION_EMBARCO_MARKET = '399 Embarcadero'
+LOCATION_CANDLESTICK = 'Candlestick Park'
+
 # Manual Fixes/Improvements for specific locations
 # that Google's geolocation service won't be able to
 # resolve. E.g., "Leavenworth from Filbert & Francisco St"
@@ -46,36 +51,45 @@ LOCATION_OVERRIDES = {
     "2556C889-30DA-40BC-B6C2-93346CDBE1EE": "Jack Kerouac Alley & Grant Ave",
     "9C5B6F02-9DD6-49D0-B7EF-9F5D74F540EA": "847 Montgomery Street",
     # the Embarcadero freeway in this film doesn't exist
-    "B28D2C31-7463-43E4-8922-9AEC3C0BCBA6": "399 The Embarcadero",
-    "6E393A2-665C-40B1-B357-62D86FC0D57F": "The Embarcadero & Ferry Building",
-    "46E393A2-665C-40B1-B357-62D86FC0D57F": "The Embarcadero & Ferry Building",
-    "3B4AD4CC-29D8-4BAF-8800-3F81D2E3DBB5": "The Embarcadero & Ferry Building",
-    "36F5D3B6-1D7D-4F28-A711-478A53182E8E": "The Embarcadero & Ferry Building",
-    "340BFF5F-7D3F-4FA2-9CA3-CF96DAAF2914": "The Embarcadero & Ferry Building",
-    "7FC183C0-A150-48A9-B113-380403981800": "The Embarcadero & Ferry Building",
-    "EB708888-D5B3-4594-BDA1-68C2AD63EA71": "The Embarcadero & Ferry Building",
+    "B28D2C31-7463-43E4-8922-9AEC3C0BCBA6": LOCATION_EMBARCO_MARKET,
+    "6E393A2-665C-40B1-B357-62D86FC0D57F": LOCATION_EMBARCO,
+    "46E393A2-665C-40B1-B357-62D86FC0D57F": LOCATION_EMBARCO,
+    "3B4AD4CC-29D8-4BAF-8800-3F81D2E3DBB5": LOCATION_EMBARCO,
+    "36F5D3B6-1D7D-4F28-A711-478A53182E8E": LOCATION_EMBARCO,
+    "340BFF5F-7D3F-4FA2-9CA3-CF96DAAF2914": LOCATION_EMBARCO,
+    "7FC183C0-A150-48A9-B113-380403981800": LOCATION_EMBARCO,
+    "EB708888-D5B3-4594-BDA1-68C2AD63EA71": LOCATION_EMBARCO,
 
     "736BEA89-092D-40A3-8CCB-67996C2FDD58": "1332 Grant Ave",
 
     # It's odd that Google can't figure this out
     # 'Candlestick Park Exit, Highway 101'
-    "2A13BB99-7F65-4F3D-83FD-5E39D2EF48D2": "Candlestick Park",
-    "44722700-FB67-4E7F-A1F6-4C6A5FE9ACD5": "Candlestick Park",
-    '18F0ED6C-3561-4ABB-ABCA-7F2299D42BD7': "Candlestick Park",
-    '5C8E4FDC-4994-4D2B-91E7-50BBBA277FFA': "Candlestick Park",
-    '928394DF-EC7B-496C-8DC6-2A59243E5874': "Candlestick Park",
-    '36AC33AC-6455-4797-9849-6579DC9F051B': "Candlestick Park",
-    'B212265D-08CD-44F4-B156-318699A3D142': "Candlestick Park",
-    '0D8F9C14-80D0-43E3-A61B-4E9C3D312D3B': "Candlestick Park",
-    '9F88777C-1968-49B4-99A9-6EC4B724BF2A': "Candlestick Park",
-    'DE2158E9-7DA8-4310-A306-C65C4F5EE89F': "Candlestick Park",
-    'A4F445AB-A0BF-4466-A9AB-A1B2C3FFD1E6': "Candlestick Park",
+    "2A13BB99-7F65-4F3D-83FD-5E39D2EF48D2": LOCATION_CANDLESTICK,
+    "44722700-FB67-4E7F-A1F6-4C6A5FE9ACD5": LOCATION_CANDLESTICK,
+    '18F0ED6C-3561-4ABB-ABCA-7F2299D42BD7': LOCATION_CANDLESTICK,
+    '5C8E4FDC-4994-4D2B-91E7-50BBBA277FFA': LOCATION_CANDLESTICK,
+    '928394DF-EC7B-496C-8DC6-2A59243E5874': LOCATION_CANDLESTICK,
+    '36AC33AC-6455-4797-9849-6579DC9F051B': LOCATION_CANDLESTICK,
+    'B212265D-08CD-44F4-B156-318699A3D142': LOCATION_CANDLESTICK,
+    '0D8F9C14-80D0-43E3-A61B-4E9C3D312D3B': LOCATION_CANDLESTICK,
+    '9F88777C-1968-49B4-99A9-6EC4B724BF2A': LOCATION_CANDLESTICK,
+    'DE2158E9-7DA8-4310-A306-C65C4F5EE89F': LOCATION_CANDLESTICK,
+    'A4F445AB-A0BF-4466-A9AB-A1B2C3FFD1E6': LOCATION_CANDLESTICK,
 
     '089F05BF-FDDA-473E-87CD-CB7FB97C47A0': 'spofford and washington',
     '7B5DB347-473B-4360-85F8-6CBEFCD42A9A': 'american can company',
     '6C61AA14-3213-478E-A0E8-D5CA503F6696': 'Columbus and Filbert St',
     '8D726183-F542-4B8E-9B13-EA2BDCD5298C': 'Bush and Kerney St',
-    '274355E9-42CA-4FCB-945A-8F466D5EFE2F': 'grant and sacramento street'
+    '274355E9-42CA-4FCB-945A-8F466D5EFE2F': 'grant and sacramento street',
+
+    '4E745A1A-6FAE-4D93-B5CE-2046FD28F973': LOCATION_EMBARCO,
+
+    '1E1A2DF9-1E46-427E-84DF-E09DB68F7E03': LOCATION_EMBARCO,
+    '39A950CF-0F78-4C3A-90CD-8852F368C886': LOCATION_EMBARCO,
+    '07D46736-F34F-470A-B6C2-248289FD580C': LOCATION_EMBARCO,
+    '23114F2F-DE88-402E-995F-B5B367AF80FA': LOCATION_EMBARCO,
+
+    '07F59C2E-8B78-4A37-8E30-8A8CDB0ABEF3': LOCATION_EMBARCO
 
 }
 
@@ -284,7 +298,7 @@ def converter(client, raw_records, geo_cache=GEO_CACHE_NULL, throttle_sec=None):
             if results:
                 result = results[0]
                 geo_cache.records[ix] = result
-                # geo_cache.write()
+                log.info("Resolved raw location `{}` to `{}`".format(location, result['formatted_address']))
 
                 feature = to_geojson_feature(result, ix=ix, properties=r)
                 features.append(feature)
