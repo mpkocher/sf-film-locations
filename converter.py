@@ -69,7 +69,13 @@ LOCATION_OVERRIDES = {
     '0D8F9C14-80D0-43E3-A61B-4E9C3D312D3B': "Candlestick Park",
     '9F88777C-1968-49B4-99A9-6EC4B724BF2A': "Candlestick Park",
     'DE2158E9-7DA8-4310-A306-C65C4F5EE89F': "Candlestick Park",
-    'A4F445AB-A0BF-4466-A9AB-A1B2C3FFD1E6': "Candlestick Park"
+    'A4F445AB-A0BF-4466-A9AB-A1B2C3FFD1E6': "Candlestick Park",
+
+    '089F05BF-FDDA-473E-87CD-CB7FB97C47A0': 'spofford and washington',
+    '7B5DB347-473B-4360-85F8-6CBEFCD42A9A': 'american can company',
+    '6C61AA14-3213-478E-A0E8-D5CA503F6696': 'Columbus and Filbert St',
+    '8D726183-F542-4B8E-9B13-EA2BDCD5298C': 'Bush and Kerney St'
+
 
 }
 
