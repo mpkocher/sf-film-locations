@@ -4,13 +4,14 @@ Convert the SF Film's data to GeoJson format.
 """
 import argparse
 import datetime
-import functools
 import json
 import logging
 import operator
 import os
 import sys
 import time
+
+from typing import Optional
 
 import geojson
 from geojson import Feature, FeatureCollection, Point
@@ -26,71 +27,8 @@ class Constants:
     GCP_KEY_FILE = "gcp-key"
     # UUID -> georesult
     GEO_CACHE_FILE = "geolocation-cache.json"
-
-
-# This is very commonly misunderstood by google
-LOCATION_EMBARCO = 'The Embarcadero & Ferry Building'
-LOCATION_EMBARCO_MARKET = '399 Embarcadero'
-LOCATION_CANDLESTICK = 'Candlestick Park'
-
-# Manual Fixes/Improvements for specific locations
-# that Google's geolocation service won't be able to
-# resolve. E.g., "Leavenworth from Filbert & Francisco St"
-# Filbert and Fransisco are parallel and are 4 blocks away
-LOCATION_OVERRIDES = {
-    "E52DC90F-9FEA-416C-85FC-D8F059A93FB6": "Leavenworth & Filbert",
-    "E4005BA5-6E32-4BD8-AE7E-496EB6B9E5BC": "California at Mason Street",
-    "DE489975-BC16-4518-A013-4E08251A19DD": "Illinois St & 20th St",
-    "F8473537-8CBE-46CA-AA5E-55033E948FC6": "Lombard St & Columbus Ave",
-    "2556C889-30DA-40BC-B6C2-93346CDBE1E": "Jack Kerouac Alley & Grant Ave",
-    "39C0FD32-0A65-410F-985B-3F5119CE198A": "Spofford St & Washington St",
-    "CE5A834B-B8AC-41C0-8002-93897E50499C": "Sansome St & Pine St",
-    # Not sure if this is correct
-    "16F9105D-0658-4A4B-B972-20F8E34656E3": "23rd St & Illinois St",
-    "42C4A4CD-3E6B-424F-BBD0-7ECB435AD9DF": "2nd & Mariposa Street",
-    "2556C889-30DA-40BC-B6C2-93346CDBE1EE": "Jack Kerouac Alley & Grant Ave",
-    "9C5B6F02-9DD6-49D0-B7EF-9F5D74F540EA": "847 Montgomery Street",
-    # the Embarcadero freeway in this film doesn't exist
-    "B28D2C31-7463-43E4-8922-9AEC3C0BCBA6": LOCATION_EMBARCO_MARKET,
-    "6E393A2-665C-40B1-B357-62D86FC0D57F": LOCATION_EMBARCO,
-    "46E393A2-665C-40B1-B357-62D86FC0D57F": LOCATION_EMBARCO,
-    "3B4AD4CC-29D8-4BAF-8800-3F81D2E3DBB5": LOCATION_EMBARCO,
-    "36F5D3B6-1D7D-4F28-A711-478A53182E8E": LOCATION_EMBARCO,
-    "340BFF5F-7D3F-4FA2-9CA3-CF96DAAF2914": LOCATION_EMBARCO,
-    "7FC183C0-A150-48A9-B113-380403981800": LOCATION_EMBARCO,
-    "EB708888-D5B3-4594-BDA1-68C2AD63EA71": LOCATION_EMBARCO,
-
-    "736BEA89-092D-40A3-8CCB-67996C2FDD58": "1332 Grant Ave",
-
-    # It's odd that Google can't figure this out
-    # 'Candlestick Park Exit, Highway 101'
-    "2A13BB99-7F65-4F3D-83FD-5E39D2EF48D2": LOCATION_CANDLESTICK,
-    "44722700-FB67-4E7F-A1F6-4C6A5FE9ACD5": LOCATION_CANDLESTICK,
-    '18F0ED6C-3561-4ABB-ABCA-7F2299D42BD7': LOCATION_CANDLESTICK,
-    '5C8E4FDC-4994-4D2B-91E7-50BBBA277FFA': LOCATION_CANDLESTICK,
-    '928394DF-EC7B-496C-8DC6-2A59243E5874': LOCATION_CANDLESTICK,
-    '36AC33AC-6455-4797-9849-6579DC9F051B': LOCATION_CANDLESTICK,
-    'B212265D-08CD-44F4-B156-318699A3D142': LOCATION_CANDLESTICK,
-    '0D8F9C14-80D0-43E3-A61B-4E9C3D312D3B': LOCATION_CANDLESTICK,
-    '9F88777C-1968-49B4-99A9-6EC4B724BF2A': LOCATION_CANDLESTICK,
-    'DE2158E9-7DA8-4310-A306-C65C4F5EE89F': LOCATION_CANDLESTICK,
-    'A4F445AB-A0BF-4466-A9AB-A1B2C3FFD1E6': LOCATION_CANDLESTICK,
-
-    '089F05BF-FDDA-473E-87CD-CB7FB97C47A0': 'spofford and washington',
-    '7B5DB347-473B-4360-85F8-6CBEFCD42A9A': 'american can company',
-    '6C61AA14-3213-478E-A0E8-D5CA503F6696': 'Columbus and Filbert St',
-    '8D726183-F542-4B8E-9B13-EA2BDCD5298C': 'Bush and Kerney St',
-    '274355E9-42CA-4FCB-945A-8F466D5EFE2F': 'grant and sacramento street',
-
-    '4E745A1A-6FAE-4D93-B5CE-2046FD28F973': LOCATION_EMBARCO,
-    '1E1A2DF9-1E46-427E-84DF-E09DB68F7E03': LOCATION_EMBARCO,
-    '39A950CF-0F78-4C3A-90CD-8852F368C886': LOCATION_EMBARCO,
-    '07D46736-F34F-470A-B6C2-248289FD580C': LOCATION_EMBARCO,
-    '23114F2F-DE88-402E-995F-B5B367AF80FA': LOCATION_EMBARCO,
-    '98D96283-0764-4838-BC97-C822F97F691B': LOCATION_EMBARCO,
-    '07F59C2E-8B78-4A37-8E30-8A8CDB0ABEF3': LOCATION_EMBARCO
-
-}
+    # Manual overrides of locations that google has trouble resolving correctly
+    LOCATION_OVERRIDES = 'location-overrides.json'
 
 
 def load_gcp_key(path):
@@ -103,15 +41,15 @@ def _is_not_null(x):
     return x is not None
 
 
-def _custom_converter(d):
+def _custom_converter(d, override_locations:dict):
     # Minor tweaks to raw d from data from sfdata
 
     dx = d.copy()
 
-    ix = dx["id"]
+    raw_location = dx["Locations"]
 
-    if ix in LOCATION_OVERRIDES:
-        dx["Locations"] = LOCATION_OVERRIDES[ix]
+    if raw_location in override_locations:
+        dx["Locations"] = override_locations[raw_location]
 
     def f(i):
         return f"Actor {i}"
@@ -151,8 +89,10 @@ def to_simple_d(d):
     return map(to_d, items)
 
 
-def to_geojson_feature(dx, ix=None, properties=None):
+def to_geojson_feature(dx, properties=None):
     # More of this raw data from google should be pushed down
+    # this ix is perhaps an issue given that the data source isn't
+    # persisting UUIDs across updates.
     g = dx["geometry"]["location"]
     coords = g["lng"], g["lat"]
     pt = Point(coords)
@@ -161,7 +101,7 @@ def to_geojson_feature(dx, ix=None, properties=None):
     if properties is not None:
         for key in keys:
             properties[key] = dx.get(key)
-    return Feature(id=ix, geometry=pt, properties=properties)
+    return Feature(geometry=pt, properties=properties)
 
 
 def feature_to_simple_d(f0):
@@ -181,11 +121,15 @@ def feature_to_simple_d(f0):
     return d
 
 
-def load_raw_data(f):
-    """Load raw SF data and convert to 'simple' dict form"""
+def load_json(f):
     with open(f, "r") as reader:
         raw_d = json.load(reader)
-    return to_simple_d(raw_d)
+    return raw_d
+
+
+def load_raw_data(f):
+    """Load raw SF data and convert to 'simple' dict form"""
+    return to_simple_d(load_json(f))
 
 
 def _to_sf_location(lx):
@@ -196,7 +140,7 @@ def _to_sf_location(lx):
 
 def lookup_location(client, location, throttle_sec=None):
     # Not clear what errors can occur here at the GCP level
-    log.info(f"Looking up Location {location}")
+    log.debug(f"Looking up Location {location}")
     result = client.geocode(location)
     if throttle_sec is not None:
         time.sleep(throttle_sec)
@@ -261,7 +205,10 @@ class GeoLocationCacheNullIO(GeoLocationCacheIO):
 GEO_CACHE_NULL = GeoLocationCacheNullIO()
 
 
-def converter(client, raw_records, geo_cache=GEO_CACHE_NULL, throttle_sec=None):
+def converter(client: Client, raw_records, geo_cache=GEO_CACHE_NULL, location_overrides:Optional[dict]=None, throttle_sec:Optional[int]=None):
+
+    loc_overrides: dict = {} if location_overrides is None else location_overrides
+
     def fx(dx):
         loc = dx["Locations"]
         if loc is None:
@@ -276,39 +223,44 @@ def converter(client, raw_records, geo_cache=GEO_CACHE_NULL, throttle_sec=None):
     )
     features = []
     for record in filter(fx, raw_records):
-        r = _custom_converter(record)
+        r = _custom_converter(record, loc_overrides)
+        # they changed the UUID in the Sept 6, 2019 update for some reason.
+        # Therefore, it's no longer safe to rely on that to persist across updates.
+        # Going forward using the location as the id (this is not without it's
+        # own set of issues).
         ix = r["id"]
-        title = r["Title"]
-        location = r["Locations"]
 
-        lx = geo_cache.records.get(ix)
+        title = r["Title"]
+        raw_location = r["Locations"]
+
+        lx = geo_cache.records.get(raw_location)
 
         # dirty hack to force the cache to get updated
         # when manually changing labels
-        # if ix in LOCATION_OVERRIDES:
+        #if raw_location in location_overrides:
         #    lx = None
 
         if lx is None:
             results = lookup_location(
-                client, _to_sf_location(location), throttle_sec=throttle_sec
+                client, _to_sf_location(raw_location), throttle_sec=throttle_sec
             )
 
             # why is this a list? If it can't resolve the address it just returns an empty list?
             if results:
                 result = results[0]
-                geo_cache.records[ix] = result
-                log.info("Resolved raw location `{}` to `{}`".format(location, result['formatted_address']))
+                geo_cache.records[raw_location] = result
+                log.info("Resolved record `{}` raw location `{}` to `{}`".format(ix, raw_location, result['formatted_address']))
 
-                feature = to_geojson_feature(result, ix=ix, properties=r)
+                feature = to_geojson_feature(result, properties=r)
                 features.append(feature)
             else:
                 log.error(
-                    f"UNABLE TO RESOLVE LOCATION `{location}` for Title {title} for {ix}"
+                    f"UNABLE TO RESOLVE LOCATION `{raw_location}` for Title {title} for {ix}"
                 )
         else:
-            log.debug(f"Loading GEO Location from cache. id:{ix}")
+            log.debug(f"Loading GEO Location from cache. Location `{raw_location}`")
             result = lx
-            feature = to_geojson_feature(result, ix=ix, properties=r)
+            feature = to_geojson_feature(result, properties=r)
             features.append(feature)
 
     log.debug("Converted {} GeoJson features".format(len(features)))
@@ -327,13 +279,14 @@ def setup_logger(level=logging.INFO, file_name=None, stream=sys.stdout):
 
 
 def converter_io(
-    client_key,
-    raw_record_json,
-    geo_cache_json=None,
-    output_geojson=None,
-    output_csv=None,
-    max_records=None,
-    throttle_sec=None
+    client_key:str,
+    raw_record_json:str,
+    geo_cache_json: Optional[str]=None,
+    location_overrides: Optional[str]=None,
+    output_geojson: Optional[str]=None,
+    output_csv: Optional[str]=None,
+    max_records: Optional[int]=None,
+    throttle_sec: Optional[float]=None,
 ):
 
     client = Client(key=client_key)
@@ -345,13 +298,16 @@ def converter_io(
     else:
         records = raw_records
 
+    loc_overrides = {} if location_overrides is None else load_json(location_overrides)
+    log.info("Loaded {} location overrides".format(len(loc_overrides)))
+
     gcache = (
         GEO_CACHE_NULL
         if geo_cache_json is None
         else GeoLocationCacheIO.load_from(geo_cache_json)
     )
 
-    features, cache = converter(client, records, gcache, throttle_sec=throttle_sec)
+    features, cache = converter(client, records, gcache, location_overrides=loc_overrides, throttle_sec=throttle_sec)
 
     if output_geojson is not None:
         write_features_to_geojson(features, output_geojson)
@@ -362,7 +318,7 @@ def converter_io(
     return features, cache
 
 
-def get_parser():
+def get_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description=__doc__)
 
     f = p.add_argument
@@ -371,9 +327,10 @@ def get_parser():
     f("-f", "--sf-json", help="Path to SF Org JSON file", required=True)
     f("-o", "--output-geojson", help="Output GeoJSON file", default="output.geojson")
     f("-c", "--geolocation-cache", help="Cached GeoLocation", default=None)
+    f('--location-overrides', help="Location overrides JSON file for locations that google will have trouble resolving", default=None)
     f("--output-csv", help="Output 'Slim' CSV with minimal metadata", default=None)
     f("--max-records", help="Max Number of records to process", type=int)
-    f("--throttle-sec", help="Throttling time between requests", type=int, default=1)
+    f("--throttle-sec", help="Throttling time between requests", type=float, default=1)
 
     f("--log-level", help="Logging Level", default=logging.INFO)
     f("--log-file", help="Output Logging file", default=None)
@@ -382,7 +339,7 @@ def get_parser():
     return p
 
 
-def run_main(argv):
+def run_main(argv) -> int:
     p = get_parser()
     pargs = p.parse_args(argv)
 
@@ -399,6 +356,7 @@ def run_main(argv):
             pargs.api_key,
             pargs.sf_json,
             pargs.geolocation_cache,
+            location_overrides=pargs.location_overrides,
             output_geojson=pargs.output_geojson,
             output_csv=pargs.output_csv,
             max_records=pargs.max_records,
