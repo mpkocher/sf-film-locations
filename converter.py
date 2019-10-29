@@ -237,7 +237,7 @@ def converter(client: Client, raw_records, geo_cache=GEO_CACHE_NULL, location_ov
 
         # dirty hack to force the cache to get updated
         # when manually changing labels
-        # if ix in LOCATION_OVERRIDES:
+        #if raw_location in location_overrides:
         #    lx = None
 
         if lx is None:
