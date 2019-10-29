@@ -17034,8 +17034,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.284548,
-     37.7981483
+     -122.3933208,
+     37.7955703
     ]
    },
    "properties": {
@@ -17049,7 +17049,7 @@
     "meta": "{ }",
     "Title": "Terminator - Genisys",
     "Release Year": 2015,
-    "Locations": "Market St. at Embarcadero area",
+    "Locations": "The Embarcadero & Ferry Building",
     "Fun Facts": null,
     "Production Company": "T5 Productions LLC",
     "Distributor": "Paramount Pictures",
@@ -17059,8 +17059,8 @@
      "Arnold Schwarzenegger",
      "Jason Clarke"
     ],
-    "formatted_address": "Embarcadero West & Market St, Oakland, CA 94607, USA",
-    "place_id": "EjRFbWJhcmNhZGVybyBXZXN0ICYgTWFya2V0IFN0LCBPYWtsYW5kLCBDQSA5NDYwNywgVVNBImYiZAoUChIJ_62Gjb6Aj4ARPrHvIrVvJC0SFAoSCf-tho2-gI-AET6x7yK1byQtGhQKEgmHPgfbx4CPgBFBQTKrOdESUBoUChIJySMq_Rp-hYAR70u72Cr0kqciCg0riocWFdjbHLc",
+    "formatted_address": "Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
   },
@@ -44594,8 +44594,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.3107517,
-     37.6909682
+     -122.4194155,
+     37.7749295
     ]
    },
    "properties": {
@@ -44609,7 +44609,7 @@
     "meta": "{ }",
     "Title": "Alexander's Ragtime Band",
     "Release Year": 1938,
-    "Locations": "San Francisco Bay",
+    "Locations": "San Francisco",
     "Fun Facts": null,
     "Production Company": "Twentieth Century Fox Film Corporation",
     "Distributor": "Twentieth Century Fox Film Corporation",
@@ -44620,8 +44620,8 @@
      "Alice Faye",
      "Don Ameche"
     ],
-    "formatted_address": "San Francisco Bay, California, USA",
-    "place_id": "ChIJBwohpl6bj4AREMlJ8U8PlaI",
+    "formatted_address": "San Francisco, CA, USA",
+    "place_id": "ChIJIQBpAG2ahYAR_6128GcTUEo",
     "plus_code": null
    }
   },
@@ -57119,8 +57119,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -76.23326759999999,
-     41.0545292
+     -122.408536,
+     37.7737729
     ]
    },
    "properties": {
@@ -57134,7 +57134,7 @@
     "meta": "{ }",
     "Title": "Chance Season 2",
     "Release Year": 2017,
-    "Locations": "Heron @ Berwick (off 8th and Harrison St)",
+    "Locations": "8th and Harrison St",
     "Fun Facts": null,
     "Production Company": "TVM Productions Inc.",
     "Distributor": "Hulu",
@@ -57145,8 +57145,8 @@
      "Greta Lee",
      "Ethan Suplee"
     ],
-    "formatted_address": "Berwick, PA, USA",
-    "place_id": "ChIJHwhOuiGdxYkRhdfFVo1joOk",
+    "formatted_address": "8th St & Harrison St, San Francisco, CA 94103, USA",
+    "place_id": "EjI4dGggU3QgJiBIYXJyaXNvbiBTdCwgU2FuIEZyYW5jaXNjbywgQ0EgOTQxMDMsIFVTQSJmImQKFAoSCS9lE5kpfo-AEd46B2Zx-UUXEhQKEgkvZROZKX6PgBHeOgdmcflFFxoUChIJx0YJ3yt-j4ARy40hBGfd7MsaFAoSCSe1QknNf4-AESmmwNYYeLT6IgoNAdKDFhWQ8Am3",
     "plus_code": null
    }
   },
@@ -58328,8 +58328,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -121.4943996,
-     38.5815719
+     -122.412673,
+     37.7925585
     ]
    },
    "properties": {
@@ -58343,7 +58343,7 @@
     "meta": "{ }",
     "Title": "Chance Season 2",
     "Release Year": 2017,
-    "Locations": "Sacramento between Mason and Taylor St",
+    "Locations": "Sacramento and Taylor St",
     "Fun Facts": null,
     "Production Company": "TVM Productions Inc.",
     "Distributor": "Hulu",
@@ -58354,8 +58354,8 @@
      "Greta Lee",
      "Ethan Suplee"
     ],
-    "formatted_address": "Sacramento, CA, USA",
-    "place_id": "ChIJ-ZeDsnLGmoAR238ZdKpqH5I",
+    "formatted_address": "Sacramento St & Taylor St, San Francisco, CA 94108, USA",
+    "place_id": "EjdTYWNyYW1lbnRvIFN0ICYgVGF5bG9yIFN0LCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEwOCwgVVNBImYiZAoUChIJ6bk_WI2AhYARI_g8EpTZ-5ESFAoSCem5P1iNgIWAESP4PBKU2fuRGhQKEgmb5Ur4wICFgBGflYlUub8BfRoUChIJyaqQge2AhYARoBu9KRbcoTIiCg3Rr4YWFfZOCbc",
     "plus_code": null
    }
   },
@@ -80331,8 +80331,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -76.23326759999999,
-     41.0545292
+     -122.408536,
+     37.7737729
     ]
    },
    "properties": {
@@ -80346,7 +80346,7 @@
     "meta": "{ }",
     "Title": "Chance Season 2",
     "Release Year": 2017,
-    "Locations": "Heron @ Berwick (off 8th and Harrison St)",
+    "Locations": "8th and Harrison St",
     "Fun Facts": null,
     "Production Company": "TVM Productions Inc.",
     "Distributor": "Hulu",
@@ -80357,8 +80357,8 @@
      "Greta Lee",
      "Ethan Suplee"
     ],
-    "formatted_address": "Berwick, PA, USA",
-    "place_id": "ChIJHwhOuiGdxYkRhdfFVo1joOk",
+    "formatted_address": "8th St & Harrison St, San Francisco, CA 94103, USA",
+    "place_id": "EjI4dGggU3QgJiBIYXJyaXNvbiBTdCwgU2FuIEZyYW5jaXNjbywgQ0EgOTQxMDMsIFVTQSJmImQKFAoSCS9lE5kpfo-AEd46B2Zx-UUXEhQKEgkvZROZKX6PgBHeOgdmcflFFxoUChIJx0YJ3yt-j4ARy40hBGfd7MsaFAoSCSe1QknNf4-AESmmwNYYeLT6IgoNAdKDFhWQ8Am3",
     "plus_code": null
    }
   },
@@ -87422,8 +87422,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.3107517,
-     37.6909682
+     -122.4194155,
+     37.7749295
     ]
    },
    "properties": {
@@ -87437,7 +87437,7 @@
     "meta": "{ }",
     "Title": "Alexander's Ragtime Band",
     "Release Year": 1938,
-    "Locations": "San Francisco Bay",
+    "Locations": "San Francisco",
     "Fun Facts": null,
     "Production Company": "Twentieth Century Fox Film Corporation",
     "Distributor": "Twentieth Century Fox Film Corporation",
@@ -87448,8 +87448,8 @@
      "Alice Faye",
      "Don Ameche"
     ],
-    "formatted_address": "San Francisco Bay, California, USA",
-    "place_id": "ChIJBwohpl6bj4AREMlJ8U8PlaI",
+    "formatted_address": "San Francisco, CA, USA",
+    "place_id": "ChIJIQBpAG2ahYAR_6128GcTUEo",
     "plus_code": null
    }
   },
@@ -108970,8 +108970,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -121.4943996,
-     38.5815719
+     -122.412673,
+     37.7925585
     ]
    },
    "properties": {
@@ -108985,7 +108985,7 @@
     "meta": "{ }",
     "Title": "Chance Season 2",
     "Release Year": 2017,
-    "Locations": "Sacramento between Mason and Taylor St",
+    "Locations": "Sacramento and Taylor St",
     "Fun Facts": null,
     "Production Company": "TVM Productions Inc.",
     "Distributor": "Hulu",
@@ -108996,8 +108996,8 @@
      "Greta Lee",
      "Ethan Suplee"
     ],
-    "formatted_address": "Sacramento, CA, USA",
-    "place_id": "ChIJ-ZeDsnLGmoAR238ZdKpqH5I",
+    "formatted_address": "Sacramento St & Taylor St, San Francisco, CA 94108, USA",
+    "place_id": "EjdTYWNyYW1lbnRvIFN0ICYgVGF5bG9yIFN0LCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEwOCwgVVNBImYiZAoUChIJ6bk_WI2AhYARI_g8EpTZ-5ESFAoSCem5P1iNgIWAESP4PBKU2fuRGhQKEgmb5Ur4wICFgBGflYlUub8BfRoUChIJyaqQge2AhYARoBu9KRbcoTIiCg3Rr4YWFfZOCbc",
     "plus_code": null
    }
   },
@@ -118675,8 +118675,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -122.284548,
-     37.7981483
+     -122.3933208,
+     37.7955703
     ]
    },
    "properties": {
@@ -118690,7 +118690,7 @@
     "meta": "{ }",
     "Title": "Terminator - Genisys",
     "Release Year": 2015,
-    "Locations": "Market St. at Embarcadero area",
+    "Locations": "The Embarcadero & Ferry Building",
     "Fun Facts": null,
     "Production Company": "T5 Productions LLC",
     "Distributor": "Paramount Pictures",
@@ -118700,8 +118700,8 @@
      "Arnold Schwarzenegger",
      "Jason Clarke"
     ],
-    "formatted_address": "Embarcadero West & Market St, Oakland, CA 94607, USA",
-    "place_id": "EjRFbWJhcmNhZGVybyBXZXN0ICYgTWFya2V0IFN0LCBPYWtsYW5kLCBDQSA5NDYwNywgVVNBImYiZAoUChIJ_62Gjb6Aj4ARPrHvIrVvJC0SFAoSCf-tho2-gI-AET6x7yK1byQtGhQKEgmHPgfbx4CPgBFBQTKrOdESUBoUChIJySMq_Rp-hYAR70u72Cr0kqciCg0riocWFdjbHLc",
+    "formatted_address": "Ferry Building, 1 Ferry Building, San Francisco, CA 94111, USA",
+    "place_id": "ChIJu1XQjGaAhYAR966C7JnAu5w",
     "plus_code": null
    }
   },

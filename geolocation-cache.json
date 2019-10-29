@@ -126650,5 +126650,234 @@
       "neighborhood",
       "political"
     ]
+  },
+  "San Francisco": {
+    "address_components": [
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "San Francisco, CA, USA",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 37.9298239,
+          "lng": -122.28178
+        },
+        "southwest": {
+          "lat": 37.6398299,
+          "lng": -123.173825
+        }
+      },
+      "location": {
+        "lat": 37.7749295,
+        "lng": -122.4194155
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 37.812,
+          "lng": -122.3482
+        },
+        "southwest": {
+          "lat": 37.70339999999999,
+          "lng": -122.527
+        }
+      }
+    },
+    "place_id": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+    "types": [
+      "locality",
+      "political"
+    ]
+  },
+  "8th and Harrison St": {
+    "address_components": [
+      {
+        "long_name": "8th Street & Harrison Street",
+        "short_name": "8th St & Harrison St",
+        "types": [
+          "intersection"
+        ]
+      },
+      {
+        "long_name": "SoMa",
+        "short_name": "SoMa",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94103",
+        "short_name": "94103",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "8th St & Harrison St, San Francisco, CA 94103, USA",
+    "geometry": {
+      "location": {
+        "lat": 37.7737729,
+        "lng": -122.408536
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 37.77512188029149,
+          "lng": -122.4071870197085
+        },
+        "southwest": {
+          "lat": 37.77242391970849,
+          "lng": -122.4098849802915
+        }
+      }
+    },
+    "place_id": "EjI4dGggU3QgJiBIYXJyaXNvbiBTdCwgU2FuIEZyYW5jaXNjbywgQ0EgOTQxMDMsIFVTQSJmImQKFAoSCS9lE5kpfo-AEd46B2Zx-UUXEhQKEgkvZROZKX6PgBHeOgdmcflFFxoUChIJx0YJ3yt-j4ARy40hBGfd7MsaFAoSCSe1QknNf4-AESmmwNYYeLT6IgoNAdKDFhWQ8Am3",
+    "types": [
+      "intersection"
+    ]
+  },
+  "Sacramento and Taylor St": {
+    "address_components": [
+      {
+        "long_name": "Sacramento Street & Taylor Street",
+        "short_name": "Sacramento St & Taylor St",
+        "types": [
+          "intersection"
+        ]
+      },
+      {
+        "long_name": "Nob Hill",
+        "short_name": "Nob Hill",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "SF",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Francisco County",
+        "short_name": "San Francisco County",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "California",
+        "short_name": "CA",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "United States",
+        "short_name": "US",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "94108",
+        "short_name": "94108",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Sacramento St & Taylor St, San Francisco, CA 94108, USA",
+    "geometry": {
+      "location": {
+        "lat": 37.7925585,
+        "lng": -122.412673
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 37.79390748029149,
+          "lng": -122.4113240197085
+        },
+        "southwest": {
+          "lat": 37.7912095197085,
+          "lng": -122.4140219802915
+        }
+      }
+    },
+    "place_id": "EjdTYWNyYW1lbnRvIFN0ICYgVGF5bG9yIFN0LCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEwOCwgVVNBImYiZAoUChIJ6bk_WI2AhYARI_g8EpTZ-5ESFAoSCem5P1iNgIWAESP4PBKU2fuRGhQKEgmb5Ur4wICFgBGflYlUub8BfRoUChIJyaqQge2AhYARoBu9KRbcoTIiCg3Rr4YWFfZOCbc",
+    "types": [
+      "intersection"
+    ]
   }
 }
