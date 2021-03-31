@@ -12,3 +12,6 @@ convert:
 
 convert-test:
 	./converter.py -k "${API_KEY}" -f Film_Locations_in_San_Francisco.json -c geolocation-cache.json -o SF-Film-Locations.geojson --max-records=5 --log-level=DEBUG --location-overrides location-overrides.json
+
+mypy:
+	mypy --strict converter.py
