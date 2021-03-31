@@ -7,6 +7,33 @@ Raw Data: https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Fr
 Last updated: 2019-08-24
 Total GeoJSON Records: 3299
 
+
+This tool will convert the 3200+ raw locations from the RDF-ish JSON format from SFgov.org into [GeoJSON](https://geojson.org/) format. The locations are looked up using Google Cloud Platform (GCP) geolocation service. Even using the GCP gelocation server, there's still 10-15 locations that have be edited by hand to correctly resolve the location successfully. See `LOCATION_OVERRIDES` in `converter.py` for details.
+
+The output (`SF-Film-Locations.geojson`) is using the open [GeoJSON](https://geojson.org/) standard as a `FeatureCollection`.
+
+A CSV file of the results is here:
+
+- https://github.com/mpkocher/sf-film-locations/blob/master/SF-Film-Locations.csv 
+
+The raw GeoJSON file is here:
+
+- https://raw.githubusercontent.com/mpkocher/sf-film-locations/master/SF-Film-Locations.geojson
+
+Github provides a simple [view of GeoJSON](https://github.com/mpkocher/sf-film-locations/blob/master/SF-Film-Locations.geojson) (example shown below). 
+
+[[/images/example-gh-geojson-view.jpg]]
+
+
+## Conversion Tool Details
+
+Pulling the raw data from sfgov.
+
+
+```bash
+wget "https://data.sfgov.org/api/views/yitu-d5am/rows.json?accessType=DOWNLOAD" --output-document Film_Locations_in_San_Francisco.json
+```
+
 The raw locations are loose text descriptions of the film location site and is not easily or robustly consumed for plotting purposes. 
 
 Examples of raw film site locations:
@@ -17,18 +44,6 @@ Examples of raw film site locations:
 - "City Hall"
 - "Leavenworth from Filbert & Francisco St"
 
-
-This tool will convert the 3200+ raw locations from the RDF-ish JSON format from SFgov.org into [GeoJSON](https://geojson.org/) format. The locations are looked up using Google Cloud Platform (GCP) geolocation service. Even using the GCP gelocation server, there's still 10-15 locations that have be edited by hand to correctly resolve the location successfully. See `LOCATION_OVERRIDES` in `converter.py` for details.
-
-
-## Conversion Tool
-
-Pulling the raw data from sfgov.
-
-
-```bash
-wget "https://data.sfgov.org/api/views/yitu-d5am/rows.json?accessType=DOWNLOAD" --output-document Film_Locations_in_San_Francisco.json
-```
 
 ### Running the Conversion Tool
 
