@@ -22,7 +22,8 @@ The raw GeoJSON file is here:
 
 Github provides a simple [view of GeoJSON](https://github.com/mpkocher/sf-film-locations/blob/master/SF-Film-Locations.geojson) (example shown below). 
 
-[[/images/example-gh-geojson-view.jpg]]
+
+<img src="https://raw.githubusercontent.com/mpkocher/sf-film-locations/master/images/example-gh-geojson-view.jpg" />
 
 
 ## Conversion Tool Details
